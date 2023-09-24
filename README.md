@@ -1,8 +1,19 @@
 # International Doom for DOS
 
-This is a sub-project of the main project International Doom. 
+This is a sub-project of the main project [Russian Doom](https://github.com/Russian-Doom/russian-doom). 
+
+
+## Russian Doom for DOS 1.8 (released: June 9, 2020)
+
+**DOS**:
+[russian-doom-dos-1.8.zip](https://github.com/Russian-Doom/russian-doom-dos/releases/download/1.8/russian-doom-dos-1.8.zip)  
+Compilation from source code available, see [COMPILING.md](COMPILING.md).  
+Source code available in [zip](https://github.com/Russian-Doom/russian-doom-dos/archive/refs/tags/1.8.zip)
+and [tar.gz](https://github.com/Russian-Doom/russian-doom-dos/archive/refs/tags/1.8.tar.gz) formats
+
 
 ## Supported games
+
 * Doom shareware
 * Doom registered
 * The Ultimate Doom
@@ -12,6 +23,7 @@ This is a sub-project of the main project International Doom.
 * SIGIL (five episodes version)
 
 If you have multiple IWADs in your directory, you can use the `-iwad` parameter to specify which IWAD to use. 
+
 
 ## New command line parameters
 
@@ -23,23 +35,27 @@ Note: it does affect increased engine limits and bug fixes.
 Define amount of memory for game to use. Minimum is 2 MB, maximum is 64 MB.
 
 `-dm3`<br />
-Enables newschool deathmatch (Deathmatch 3.0) mode. Weapons will stay after picking up, but items and powerups will dissapear, and will respawn after 30 seconds.
+Enables newschool deathmatch (Deathmatch 3.0) mode.
+Weapons will stay after picking up, but items and powerups will dissapear, and will respawn after 30 seconds.
 
-
-## Compiling
-
-Only Open Watcom C is required. Steps to compile:
-
-1. Install [Open Watcom C](http://www.openwatcom.org/) version 1.9 or 2.0 beta.
-2. Open intrdoom.wpj in Watcom.
-3. Build.
-4. Copy intrdoom.exe to your Doom folder.
 
 ## Gravis UltraSound
 
-Gravis UltraSound sound synth requires a GUS patches to be installed. Please follow this [instruction](https://github.com/JNechaevsky/inter-doom/blob/master/src_dos/ultrasnd/README.md) to setup them in DOSBox.
+Gravis UltraSound sound synth requires a GUS patches to be installed.
+Please follow this [instruction](https://github.com/JNechaevsky/inter-doom/blob/master/src_dos/ultrasnd/README.md)
+to setup them in DOSBox.
 
 
-## Source code
+## License
 
-DOS version is based on [PCDoom](https://github.com/nukeykt/PCDoom-v2) by Alexey Khokholov and [Doom Vanille](https://github.com/AXDOOMER/doom-vanille) by Alexandre-Xavier Labonté-Lamoureux, with significant additions from [Crispy Doom](https://www.chocolate-doom.org/wiki/index.php/Crispy_Doom) by Fabian Greffrath, and distibutes with their permission. 
+DOS version is based on [PCDoom](https://github.com/nukeykt/PCDoom-v2) by Alexey Khokholov
+and [Doom Vanille](https://github.com/AXDOOMER/doom-vanille) by Alexandre-Xavier Labonté-Lamoureux,
+with significant additions from [Crispy Doom](http://fabiangreffrath.github.io/crispy-doom) by Fabian Greffrath
+and [Doom Retro](http://doomretro.com) by Brad Harding, and is distributed with their approval.
+
+The project, along with all its translation materials and source code,
+is available under the terms and conditions of
+[GNU General Public License version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
+
+Copyright &copy; 2017&ndash;2022 [Julia Nechaevskaya](https://jnechaevsky.github.io/author.html)  
+Copyright &copy; 2023 [Leonid Murin (Dasperal)](https://github.com/Dasperal)
