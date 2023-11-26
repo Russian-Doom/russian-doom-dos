@@ -1,4 +1,4 @@
-# International Doom for DOS
+# Russian Doom for DOS
 
 This is a sub-project of the main project [Russian Doom](https://github.com/Russian-Doom/russian-doom). 
 
