@@ -23,7 +23,7 @@
 #include "music.h"
 #include "task_man.h"
 #include "mus2mid.h"
-#include "pcfx.h"
+#include <pcfx.h>
 #include "i_system.h"   // [JN] I_WaitVBL
 
 unsigned short divisors[] = {
