@@ -575,8 +575,8 @@ void R_StoreWallRange (const int start, const int stop)
     if (start >=viewwidth || start > stop)
     {
         I_Error (english_language ? 
-                 "Bad R_RenderWallRange: %i ª %i" :
-                 "R_RenderWallRange: ®è¨¡ª , %i ª %i", start , stop);
+                 "Bad R_RenderWallRange: %i ï¿½ %i" :
+                 "R_RenderWallRange: ï¿½è¨¡ï¿½ï¿½, %i ï¿½ %i", start , stop);
     }
 #endif
 

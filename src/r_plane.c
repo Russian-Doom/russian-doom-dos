@@ -171,7 +171,7 @@ static void R_MapPlane (int y, int x1, int x2)
     {
         I_Error (english_language ?
                 "R_MapPlane: %i, %i at %i" :
-                "R_MapPlane: %i, %i ¢ %i", x1,x2,y);
+                "R_MapPlane: %i, %i ï¿½ %i", x1,x2,y);
     }
 #endif
 

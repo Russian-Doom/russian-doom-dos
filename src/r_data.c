@@ -21,7 +21,7 @@
 
 #include <stdlib.h>
 #include <limits.h>
-#include  <alloca.h>
+#include <alloca.h>
 
 #include "i_system.h"
 #include "z_zone.h"
@@ -405,7 +405,7 @@ static void R_GenerateLookup (int texnum)
                                 {
                                     printf(english_language ? 
                                     "\nWarning: Texture %8.8s (height %d) has bad column(s) starting at x = %d." :
-                                    "\n‚­¨¬ ­¨¥: ’¥ªáâãà  %8.8s (¢ëá®â  %d) ¨¬¥¥â ­¥ª®àà¥ªâ­ãî ª®«®­­ã ã x = %d.",
+                                    "\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %8.8s (ï¿½ï¿½ï¿½ï¿½ %d) ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½à¥ªï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ x = %d.",
                                     texture->name, texture->height, x);
                                 }
                             }
@@ -436,7 +436,7 @@ static void R_GenerateLookup (int texnum)
                     // killough 8/8/98
                     printf(english_language ? 
                     "\nR_GenerateLookup: Column %d is without a patch in texture %.8s" :
-                    "\nR_GenerateLookup: Š®«®­­  %d ¡¥§ ¯ âç  ¢ â¥ªáâãà¥ %.8s",
+                    "\nR_GenerateLookup: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %d ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ â¥ªï¿½ï¿½ï¿½ï¿½ %.8s",
                     x, texture->name);
                 }
                 else
@@ -473,7 +473,7 @@ static void R_GenerateLookup (int texnum)
         {
             printf(english_language ?
                    "\nR_GenerateLookup: Column without a patch in texture %.8s" :
-                   "\nR_GenerateLookup: Š®«®­­  ¡¥§ ¯ âç  ¢ â¥ªáâãà¥ %.8s",
+                   "\nR_GenerateLookup: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ â¥ªï¿½ï¿½ï¿½ï¿½ %.8s",
                     texture->name);
         }
     }
@@ -679,7 +679,7 @@ static void R_InitTextures (void)
         {
             I_Error (english_language ?
                     "R_InitTextures: bad texture directory" :
-                    "R_InitTextures: ¥ª®àà¥ªâ­ ï ¤¨à¥ªâ®à¨ï â¥ªáâãà");
+                    "R_InitTextures: ï¿½ï¿½ï¿½ï¿½ï¿½à¥ªâ­ ï¿½ ï¿½ï¿½à¥ªï¿½ï¿½ï¿½ â¥ªï¿½ï¿½ï¿½ï¿½");
         }
 
         mtexture = (maptexture_t *) ( (byte *)maptex + offset);
@@ -711,7 +711,7 @@ static void R_InitTextures (void)
                     // [crispy] make non-fatal
                     fprintf (stderr, english_language ?
                             "R_InitTextures: Missing patch in texture %s" :
-                            "R_InitTextures: Žâáãâáâ¢ã¥â ¯ âç ¢ â¥ªáâãà¥ %s\n",
+                            "R_InitTextures: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ â¥ªï¿½ï¿½ï¿½ï¿½ %s\n",
                             texture->name);
                 }
 
