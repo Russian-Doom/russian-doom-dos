@@ -3,7 +3,7 @@
 ## Step 1: Setting up build environment
 
 The primary IDE for building Russian Doom is Open Watcom C,
-which may be downloaded on its [official site](http://www.openwatcom.org/download.php).
+which may be downloaded on its [official site](http://openwatcom.org/ftp/install/).
 
 ## Step 2: Compiling project
 
