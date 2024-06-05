@@ -1,3 +1,5 @@
+add_subdirectory(wads)
+
 add_executable(rusdoom
     am_map.c        am_map.h
                     d_englsh.h
@@ -89,4 +91,9 @@ set_target_properties(rusdoom PROPERTIES
     C_STANDARD_REQUIRED ON
     OUTPUT_NAME "RUSDOOM"
     SUFFIX ".EXE"
+)
+
+install(TARGETS rusdoom RUNTIME
+    DESTINATION .
+    PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
 )
