@@ -1,0 +1,82 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: ["*"]
+    tags-ignore: ["*"]
+  pull_request:
+    branches: ["*"]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  Cmake:
+    name: ${{ matrix.config.display_name }}
+    runs-on: ${{ matrix.config.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          -
+            display_name: "WATCOM 1.9"
+            runner: "ubuntu-22.04"
+            shell: "bash"
+            watcom_version: "1.9"
+            cmake_preset: "ci-watcom"
+            build_suffix: "watcom-1.9"
+#          -
+#            display_name: "WATCOM 2.0 (last release)"
+#            runner: "ubuntu-22.04"
+#            shell: "bash"
+#            watcom_version: "2.0"
+#            watcom_tag: "current"
+#            cmake_preset: "ci-watcom"
+#            build_suffix: "watcom-2.0-last"
+          -
+            display_name: "WATCOM 2.0 (master)"
+            runner: "ubuntu-22.04"
+            shell: "bash"
+            watcom_version: "2.0"
+            watcom_tag: "last"
+            cmake_preset: "ci-watcom"
+            build_suffix: "watcom-2.0-master"
+
+    defaults:
+      run:
+        shell: ${{ matrix.config.shell }}
+    steps:
+      - uses: open-watcom/setup-watcom@v0
+        with:
+          version: ${{ matrix.config.watcom_version }}
+          tag: ${{ matrix.config.watcom_tag }}
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure & Build
+        id: configure
+#        env:
+#          CC: ${{ matrix.config.compiler_name }}
+        run: |
+          rev_number=$(git rev-list --count HEAD)
+          cmake --workflow --preset "${{ matrix.config.cmake_preset }}"
+          sha_short=$(echo ${{ github.sha }} | cut -c1-7)
+          echo "sha_short=$sha_short" >> $GITHUB_OUTPUT
+          echo "rev_number=r$rev_number" >> $GITHUB_OUTPUT
+
+      - name: Install
+        if: |
+          github.repository == 'Russian-Doom/russian-doom-dos'
+        run: |
+          cmake --install build --prefix "./build/install"
+
+      - name: Package Zip
+        if: |
+          github.repository == 'Russian-Doom/russian-doom-dos'
+        uses: actions/upload-artifact@v4
+        with:
+          name: russian-doom-dos-${{ steps.configure.outputs.rev_number }}-${{ steps.configure.outputs.sha_short }}-${{ matrix.config.build_suffix }}
+          path: ./build/install/
