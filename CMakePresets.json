@@ -1,0 +1,72 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 0,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "watcom",
+      "hidden": true,
+      "generator": "Watcom WMake",
+      "cacheVariables": {
+        "CMAKE_SYSTEM_NAME": "DOS"
+      }
+    },
+    {
+      "name": "ci-watcom",
+      "inherits": "watcom",
+      "displayName": "Watcom (CI)",
+      "description": "Watcom configuration for CI builds",
+      "condition": {
+        "type": "equals",
+        "lhs": "$penv{CI}",
+        "rhs": "true"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      },
+      "binaryDir": "${sourceDir}/build",
+      "warnings": {
+        "dev": true,
+        "deprecated": true,
+        "uninitialized": true
+      },
+      "errors": {
+        "dev": true,
+        "deprecated": true
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "ci-watcom",
+      "configurePreset": "ci-watcom",
+      "displayName": "Watcom (CI)",
+      "description": "Cmake build configuration for CI builds using Watcom",
+      "condition": {
+        "type": "equals",
+        "lhs": "$penv{CI}",
+        "rhs": "true"
+      }
+    }
+  ],
+  "workflowPresets": [
+    {
+      "name": "ci-watcom",
+      "displayName": "Watcom (CI)",
+      "description": "Workflow for CI builds using Watcom",
+      "steps": [
+        {
+          "type": "configure",
+          "name": "ci-watcom"
+        },
+        {
+          "type": "build",
+          "name": "ci-watcom"
+        }
+      ]
+    }
+  ]
+}
