@@ -37,6 +37,24 @@
         "dev": true,
         "deprecated": true
       }
+    },
+    {
+      "name": "ci-watcom-release",
+      "inherits": "ci-watcom",
+      "displayName": "Watcom (CI|Release)",
+      "description": "Watcom configuration for CI Release builds",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      },
+      "warnings": {
+        "dev": false,
+        "deprecated": false,
+        "uninitialized": false
+      },
+      "errors": {
+        "dev": false,
+        "deprecated": false
+      }
     }
   ],
   "buildPresets": [
@@ -45,6 +63,30 @@
       "configurePreset": "ci-watcom",
       "displayName": "Watcom (CI)",
       "description": "Cmake build configuration for CI builds using Watcom",
+      "condition": {
+        "type": "equals",
+        "lhs": "$penv{CI}",
+        "rhs": "true"
+      }
+    },
+    {
+      "name": "ci-watcom-release",
+      "configurePreset": "ci-watcom-release",
+      "displayName": "Watcom (CI|Release)",
+      "description": "Cmake build configuration for CI Release builds using Watcom",
+      "condition": {
+        "type": "equals",
+        "lhs": "$penv{CI}",
+        "rhs": "true"
+      }
+    }
+  ],
+  "packagePresets": [
+    {
+      "name": "ci-watcom-release",
+      "configurePreset": "ci-watcom-release",
+      "displayName": "Watcom (CI|Release)",
+      "description": "Cpack configuration for CI Release builds using Watcom",
       "condition": {
         "type": "equals",
         "lhs": "$penv{CI}",
@@ -65,6 +107,25 @@
         {
           "type": "build",
           "name": "ci-watcom"
+        }
+      ]
+    },
+    {
+      "name": "ci-watcom-release",
+      "displayName": "Watcom (CI|Release)",
+      "description": "Workflow for CI Release builds using Watcom",
+      "steps": [
+        {
+          "type": "configure",
+          "name": "ci-watcom-release"
+        },
+        {
+          "type": "build",
+          "name": "ci-watcom-release"
+        },
+        {
+          "type": "package",
+          "name": "ci-watcom-release"
         }
       ]
     }
