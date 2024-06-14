@@ -93,6 +93,11 @@ set_target_properties(rusdoom PROPERTIES
     SUFFIX ".EXE"
 )
 
+target_compile_options(rusdoom PRIVATE
+    -wx
+    -wcd=303
+)
+
 install(TARGETS rusdoom RUNTIME
     DESTINATION .
     PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
