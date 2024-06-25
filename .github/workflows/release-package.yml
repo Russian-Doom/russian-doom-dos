@@ -1,0 +1,49 @@
+name: Build release packages
+
+on:
+  release:
+    types: ["published"]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  Cmake:
+    name: ${{ matrix.config.display_name }}
+    runs-on: ${{ matrix.config.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          -
+            display_name: "WATCOM 1.9" # "WATCOM 2.0 (last release)"
+            runner: "ubuntu-22.04"
+            shell: "bash"
+            watcom_version: "1.9" # "2.0"
+#           watcom_tag: "current"
+
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: ${{ matrix.config.shell }}
+    steps:
+      - uses: open-watcom/setup-watcom@v0
+        with:
+          version: ${{ matrix.config.watcom_version }}
+          tag: ${{ matrix.config.watcom_tag }}
+
+      - uses: actions/checkout@v4
+
+      - name: Configure & Build & Package
+        run: |
+          cmake --workflow --preset "ci-watcom-release"
+
+      - name: Upload Zip
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: |
+          gh release upload ${{ github.event.release.tag_name }} ./build/russian-doom-dos-${{ github.ref_name }}-i386.zip
+          gh release upload ${{ github.event.release.tag_name }} ./build/russian-doom-dos-${{ github.ref_name }}-i386.zip.sha256
