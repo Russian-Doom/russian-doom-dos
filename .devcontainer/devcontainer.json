@@ -1,0 +1,9 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/docker-existing-dockerfile
+{
+  "name": "DOS Dev Container",
+  "context": "..",
+  "dockerFile": "./Dockerfile",
+  // Required to not bleed "root" permission files into the host volume
+  "containerUser": "dosdev"
+}
