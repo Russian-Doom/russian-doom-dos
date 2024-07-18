@@ -20,20 +20,13 @@ jobs:
       matrix:
         config:
           -
-            display_name: "WATCOM 1.9"
+            display_name: "WATCOM 2.0 (stable)"
             runner: "ubuntu-22.04"
             shell: "bash"
-            watcom_version: "1.9"
+            watcom_version: "2.0"
+            watcom_tag: "2024-07-05-Build"
             cmake_preset: "ci-watcom"
-            build_suffix: "watcom-1.9"
-#          -
-#            display_name: "WATCOM 2.0 (last release)"
-#            runner: "ubuntu-22.04"
-#            shell: "bash"
-#            watcom_version: "2.0"
-#            watcom_tag: "current"
-#            cmake_preset: "ci-watcom"
-#            build_suffix: "watcom-2.0-last"
+            build_suffix: "watcom-2.0-stable"
           -
             display_name: "WATCOM 2.0 (master)"
             runner: "ubuntu-22.04"
