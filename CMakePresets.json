@@ -11,7 +11,8 @@
       "hidden": true,
       "generator": "Watcom WMake",
       "cacheVariables": {
-        "CMAKE_SYSTEM_NAME": "DOS"
+        "CMAKE_SYSTEM_NAME": "DOS",
+        "CMAKE_SYSTEM_PROCESSOR": "I386"
       }
     },
     {
