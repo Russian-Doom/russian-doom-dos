@@ -1,0 +1,28 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "clion",
+      "hidden": true,
+      "vendor": {
+        "jetbrains.com/clion": {
+          "toolchain": "Docker Russian Doom DOS"
+        }
+      }
+    },
+    {
+      "name": "clion-watcom-dev",
+      "inherits": ["local-watcom-dev", "clion"],
+      "displayName": "Watcom (Clion|Dev)",
+      "description": "Watcom configuration for Clion Dev builds",
+      "binaryDir": "${sourceDir}/build-dev"
+    },
+    {
+      "name": "clion-watcom-release",
+      "inherits": ["local-watcom-release", "clion"],
+      "displayName": "Watcom (Clion|Release)",
+      "description": "Watcom configuration for Clion Release builds",
+      "binaryDir": "${sourceDir}/build-release"
+    }
+  ]
+}

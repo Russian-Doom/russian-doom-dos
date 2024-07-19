@@ -58,6 +58,13 @@
       "binaryDir": "${sourceDir}/build"
     },
     {
+      "name": "local-watcom-dev",
+      "hidden": true,
+      "inherits": ["watcom", "dev"],
+      "displayName": "Watcom (Local|Dev)",
+      "description": "Watcom configuration for local Dev builds"
+    },
+    {
       "name": "ci-watcom-dev",
       "inherits": ["watcom", "dev", "ci"],
       "displayName": "Watcom (CI|Dev)",
@@ -68,6 +75,13 @@
       "inherits": ["watcom", "release", "ci"],
       "displayName": "Watcom (CI|Release)",
       "description": "Watcom configuration for CI Release builds"
+    },
+    {
+      "name": "local-watcom-release",
+      "inherits": ["watcom", "release"],
+      "displayName": "Watcom (Local|Release)",
+      "description": "Watcom configuration for local Release builds",
+      "binaryDir": "${sourceDir}/build"
     }
   ],
   "buildPresets": [
@@ -92,6 +106,12 @@
         "lhs": "$penv{CI}",
         "rhs": "true"
       }
+    },
+    {
+      "name": "local-watcom-release",
+      "configurePreset": "local-watcom-release",
+      "displayName": "Watcom (Local|Release)",
+      "description": "Cmake build configuration for Local Release builds using Watcom"
     }
   ],
   "packagePresets": [
@@ -105,6 +125,12 @@
         "lhs": "$penv{CI}",
         "rhs": "true"
       }
+    },
+    {
+      "name": "local-watcom-release",
+      "configurePreset": "local-watcom-release",
+      "displayName": "Watcom (Local|Release)",
+      "description": "Cpack configuration for Local Release builds using Watcom"
     }
   ],
   "workflowPresets": [
@@ -139,6 +165,25 @@
         {
           "type": "package",
           "name": "ci-watcom-release"
+        }
+      ]
+    },
+    {
+      "name": "local-watcom-release",
+      "displayName": "Watcom (Local|Release)",
+      "description": "Workflow for Local Release builds using Watcom",
+      "steps": [
+        {
+          "type": "configure",
+          "name": "local-watcom-release"
+        },
+        {
+          "type": "build",
+          "name": "local-watcom-release"
+        },
+        {
+          "type": "package",
+          "name": "local-watcom-release"
         }
       ]
     }
