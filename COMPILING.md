@@ -1,16 +1,46 @@
-# Building a DOS version of Russian Doom
+# Building Russian Doom for DOS with Docker toolchain
 
 ## Step 1: Setting up build environment
 
-The primary IDE for building Russian Doom is Open Watcom C,
-which may be downloaded on its [official site](http://openwatcom.org/ftp/install/).
+Install [Docker](https://docs.docker.com/engine/install/).
+Make shore the Docker demon is running and docker commands accessible without root permissions.
 
 ## Step 2: Compiling project
 
-After installation of Open Watcom C, open its IDE and then choose menu "File" > "Open Project..."  
-Choose `rusdoom.wpj` and press 'Make target' button.
+Run `build_release_package.sh` script.
 
-At the end of the compilation process, you will find compiled binary `rusdoom.exe` in the source code directory.
+Or run the following commands:
+```shell
+docker build "./.devcontainer" -t toolchain-russian-doom-dos
+docker run --rm -v ".:/tmp/russian-doom-dos" toolchain-russian-doom-dos \
+       /bin/bash -c "cd /tmp/russian-doom-dos && cmake --workflow --preset 'local-watcom-release'"
+```
 
-Please note: to run the compiled game executable, you will need to copy
-`rusdoom.exe`, `rusdoom.wad` and `dos4gw.exe` files to your Doom directory, as well as official IWAD files.
+The resulting package and its checksum can be found in the `build` directory.
+
+# Configuring Clion IDE
+
+Download [custom compiler config for Open Watcom](https://github.com/JetBrains/clion-custom-defined-compiler-examples/blob/master/CMake-OpenWatcom2/openwatcom2.yaml)
+and select it in Clion's **Settings > Build, Execution, Deployment > Toolchains > Custom Compiler**
+
+## Dev-container
+
+Install `docker-buildx-plugin`.
+
+Build and run dev-container
+
+## Docker toolchain
+
+### Step 1: Building image
+
+Run `build_toolchain_image.sh` script.
+
+Or run the following command:
+```shell
+docker build "./.devcontainer" -t toolchain-russian-doom-dos
+```
+
+### Step 2: Setting up toolchain
+
+In Clion's **Settings > Build, Execution, Deployment > Toolchains** 
+add `Docker toolchain` and select `toolchain-russian-doom-dos` image.
