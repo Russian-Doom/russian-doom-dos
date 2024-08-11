@@ -24,5 +24,21 @@
       "description": "Watcom configuration for Clion Release builds",
       "binaryDir": "${sourceDir}/build-release"
     }
+  ],
+  "buildPresets": [
+    {
+      "name": "clion-watcom-dev",
+      "configurePreset": "clion-watcom-dev",
+      "displayName": "Watcom (CI|Dev)",
+      "description": "Cmake build configuration for Clion Dev builds using Watcom toolchain",
+      "jobs": 14
+    },
+    {
+      "name": "clion-watcom-release",
+      "configurePreset": "clion-watcom-release",
+      "displayName": "Watcom (CI|Release)",
+      "description": "Cmake build configuration for Clion Release builds using Watcom toolchain",
+      "jobs": 14
+    }
   ]
 }

@@ -90,6 +90,7 @@
       "configurePreset": "ci-watcom-dev",
       "displayName": "Watcom (CI|Dev)",
       "description": "Cmake build configuration for CI Dev builds using Watcom",
+      "jobs": 4,
       "condition": {
         "type": "equals",
         "lhs": "$penv{CI}",
@@ -101,6 +102,7 @@
       "configurePreset": "ci-watcom-release",
       "displayName": "Watcom (CI|Release)",
       "description": "Cmake build configuration for CI Release builds using Watcom",
+      "jobs": 4,
       "condition": {
         "type": "equals",
         "lhs": "$penv{CI}",
@@ -111,7 +113,8 @@
       "name": "local-watcom-release",
       "configurePreset": "local-watcom-release",
       "displayName": "Watcom (Local|Release)",
-      "description": "Cmake build configuration for Local Release builds using Watcom"
+      "description": "Cmake build configuration for Local Release builds using Watcom",
+      "jobs": 4
     }
   ],
   "packagePresets": [
