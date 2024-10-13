@@ -94,8 +94,8 @@ set_target_properties(rusdoom PROPERTIES
 )
 
 target_compile_options(rusdoom PRIVATE
-    -wx
-    -wcd=303
+    -wx # maximum warnings
+    -wcd=303 # ignore "303: Parameter * has been defined, but not referenced" warning
     -j # treat char as signed
     -ei # use 4 bytes for enum
 )
