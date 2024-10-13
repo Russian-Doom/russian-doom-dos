@@ -97,6 +97,7 @@ target_compile_options(rusdoom PRIVATE
     -wx
     -wcd=303
     -j # treat char as signed
+    -ei # use 4 bytes for enum
 )
 
 install(TARGETS rusdoom RUNTIME
