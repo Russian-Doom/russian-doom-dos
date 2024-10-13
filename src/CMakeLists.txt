@@ -96,6 +96,7 @@ set_target_properties(rusdoom PROPERTIES
 target_compile_options(rusdoom PRIVATE
     -wx
     -wcd=303
+    -j # treat char as signed
 )
 
 install(TARGETS rusdoom RUNTIME
