@@ -27,7 +27,7 @@ ARG USER_GID=1001
 # 5) Clean up
 # 6) Setup user
 RUN apt -y update && apt -y upgrade && \
-    apt -y install wget procps cmake && \
+    apt -y install wget procps cmake git && \
     \
     wget -P /tmp https://github.com/open-watcom/open-watcom-v2/releases/download/${OW2_RELEASE_VERSION}/${OW2_INSTALLER_NAME} && \
     echo "${OW2_INSTALLER_SHA256}  /tmp/${OW2_INSTALLER_NAME}" | sha256sum --check && \

@@ -100,6 +100,10 @@ target_compile_options(rusdoom PRIVATE
     -ei # use 4 bytes for enum
 )
 
+if(NOT RD_GIT_NO_HASH)
+    add_dependencies(rusdoom revision_check)
+endif()
+
 install(TARGETS rusdoom RUNTIME
     DESTINATION .
     PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE
