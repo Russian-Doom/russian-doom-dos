@@ -103,6 +103,8 @@ target_compile_options(rusdoom PRIVATE
     -zastd=c99 # use C99 standard (Cmake fails to add this with target properties)
 )
 
+add_dependencies(rusdoom doom-wads)
+
 if(NOT RD_GIT_NO_HASH)
     add_dependencies(rusdoom revision_check)
 endif()
