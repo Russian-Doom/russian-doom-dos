@@ -22,6 +22,9 @@ else()
     )
 endif()
 
+# Configure defines header (Cmake's target_compile_definitions not working)
+configure_file("cmake/config.h.in" "config.h")
+
 # Sources
 add_subdirectory(audio)
 add_subdirectory(src)

@@ -12,10 +12,13 @@
 // GNU General Public License for more details.
 //
 
+#include <git_info.h>
+#include <config.h>
 
 #include "doomstat.h"
 #include "jn.h"
 #include "rd_lang.h"
+#include "m_misc.h"
 
 
 // -----------------------------------------------------------------------------
@@ -170,7 +173,6 @@ char* ststr_beholdz;
 char* ststr_massacre;
 char* ststr_version;
 
-
 // -----------------------------------------------------------------------------
 // [JN] Function for (pre-)defining strings for text translations.
 // -----------------------------------------------------------------------------
@@ -319,7 +321,7 @@ void RD_DefineLanguageStrings (void)
 
         // RD specific
         ststr_massacre  = STSTR_MASSACRE;
-        ststr_version   = STSTR_VERSION;
+        ststr_version   = "VERSION " PACKAGE_VERSION GIT_DISPLAY_VERSION_SUFFIX;
     }
     else
     {
@@ -463,6 +465,6 @@ void RD_DefineLanguageStrings (void)
 
         // RD specific
         ststr_massacre  = STSTR_MASSACRE_RUS;
-        ststr_version   = STSTR_VERSION_RUS;
+        ststr_version   = M_StringReplace("dthcbz " PACKAGE_VERSION GIT_DISPLAY_VERSION_SUFFIX, ".", ">");
     }
 }

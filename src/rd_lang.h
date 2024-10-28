@@ -15,7 +15,7 @@
 //
 
 //
-// Памятка по символам:
+// я┐╜я┐╜я┐╜я┐╜тка я┐╜я┐╜ симя┐╜я┐╜я┐╜я┐╜я┐╜:
 // --------------------
 // < = ,
 // > = .
@@ -942,7 +942,7 @@ extern char* ststr_version;
 
 
 // -----------------------------------------------------------------------------
-// Русский язык
+// я┐╜я┐╜я┐╜ския┐╜ я┐╜я┐╜
 // -----------------------------------------------------------------------------
 
 
@@ -950,70 +950,70 @@ extern char* ststr_version;
 // AM_map.C
 //
 
-#define AMSTR_FOLLOWON_RUS      "ht;bv cktljdfybz drk.xty"  // Режим следования включен
-#define AMSTR_FOLLOWOFF_RUS     "ht;bv cktljdfybz dsrk.xty" // Режим следования выключен
-#define AMSTR_GRIDON_RUS        "ctnrf drk.xtyf"            // Сетка включена
-#define AMSTR_GRIDOFF_RUS       "ctnrf jnrk.xtyf"           // Сетка выключена
-#define AMSTR_MARKEDSPOT_RUS    "jnvtnrf"                   // Отметка
-#define AMSTR_MARKSCLEARED_RUS  "jnvtnrb jxbotys"           // Отметки очищены
-#define AMSTR_OVERLAYON_RUS     "ht;bv yfkj;tybz drk.xty"   // Режим наложения включен
-#define AMSTR_OVERLAYOFF_RUS    "ht;bv yfkj;tybz dsrk.xty"  // Режим наложения выключен
-#define AMSTR_ROTATEON_RUS      "ht;bv dhfotybz drk.xty"    // Режим вращения включен
-#define AMSTR_ROTATEOFF_RUS     "ht;bv dhfotybz dsrk.xty"   // Режим вращения выключен
+#define AMSTR_FOLLOWON_RUS      "ht;bv cktljdfybz drk.xty"  // я┐╜я┐╜я┐╜я┐╜я┐╜ слея┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜чен
+#define AMSTR_FOLLOWOFF_RUS     "ht;bv cktljdfybz dsrk.xty" // я┐╜я┐╜я┐╜я┐╜я┐╜ слея┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ыкля┐╜чен
+#define AMSTR_GRIDON_RUS        "ctnrf drk.xtyf"            // я┐╜я┐╜тка я┐╜я┐╜я┐╜я┐╜ченя┐╜
+#define AMSTR_GRIDOFF_RUS       "ctnrf jnrk.xtyf"           // я┐╜я┐╜тка я┐╜ыкля┐╜ченя┐╜
+#define AMSTR_MARKEDSPOT_RUS    "jnvtnrf"                   // я┐╜тметка
+#define AMSTR_MARKSCLEARED_RUS  "jnvtnrb jxbotys"           // я┐╜тметки я┐╜я┐╜щеня┐╜
+#define AMSTR_OVERLAYON_RUS     "ht;bv yfkj;tybz drk.xty"   // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜чен
+#define AMSTR_OVERLAYOFF_RUS    "ht;bv yfkj;tybz dsrk.xty"  // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ыкля┐╜чен
+#define AMSTR_ROTATEON_RUS      "ht;bv dhfotybz drk.xty"    // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜щеня┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜чен
+#define AMSTR_ROTATEOFF_RUS     "ht;bv dhfotybz dsrk.xty"   // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜щеня┐╜я┐╜ я┐╜ыкля┐╜чен
 
 
 //
 // D_Main.C
 //
 
-#define D_DEVSTR_RUS    "Активирован режим разработчика.\n"
-#define D_CDROM_RUS     "Дисковая версия: файлы конфигурации сохранятся в папке c:\\doomdata\n"
+#define D_DEVSTR_RUS    "я┐╜я┐╜тивя┐╜ровя┐╜я┐╜ режя┐╜я┐╜ разрабя┐╜я┐╜чикя┐╜.\n"
+#define D_CDROM_RUS     "я┐╜я┐╜скоя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜: файя┐╜я┐╜ я┐╜я┐╜я┐╜фигя┐╜я┐╜ции я┐╜я┐╜раня┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ c:\\doomdata\n"
 
 
 //
 // G_game.C
 //
 
-#define GGSAVED_RUS          "buhf cj[hfytyf>"          // Игра сохранена.
-#define GGLOADED_RUS         "buhf pfuhe;tyf>"          // Игра загружена.
+#define GGSAVED_RUS          "buhf cj[hfytyf>"          // я┐╜я┐╜я┐╜ я┐╜я┐╜раня┐╜я┐╜я┐╜.
+#define GGLOADED_RUS         "buhf pfuhe;tyf>"          // я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ужея┐╜я┐╜.
 
 // RD specific
-#define STSTR_ALWRUNON_RUS  "gjcnjzyysq ,tu drk.xty"    // Постоянный бег включен
-#define STSTR_ALWRUNOFF_RUS "gjcnjzyysq ,tu dsrk.xty"   // Постоянный бег выключен
-#define STSTR_MLOOK_ON_RUS  "j,pjh vsim. drk.xty"       // Обзор мышью включен
-#define STSTR_MLOOK_OFF_RUS "j,pjh vsim. dsrk.xty"      // Обзор мышью выключен
-#define STSTR_TESTCTRLS_RUS "ht;bv ghjdthrb eghfdktybz" // Режим проверки управления
-#define STSTR_SCRNSHT_RUS   "crhbyijn"                  // Скриншот
+#define STSTR_ALWRUNON_RUS  "gjcnjzyysq ,tu drk.xty"    // я┐╜я┐╜я┐╜я┐╜яння┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜чен
+#define STSTR_ALWRUNOFF_RUS "gjcnjzyysq ,tu dsrk.xty"   // я┐╜я┐╜я┐╜я┐╜яння┐╜ я┐╜я┐╜я┐╜ я┐╜ыкля┐╜чен
+#define STSTR_MLOOK_ON_RUS  "j,pjh vsim. drk.xty"       // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜чен
+#define STSTR_MLOOK_OFF_RUS "j,pjh vsim. dsrk.xty"      // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ыкля┐╜чен
+#define STSTR_TESTCTRLS_RUS "ht;bv ghjdthrb eghfdktybz" // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ровя┐╜рки я┐╜равя┐╜я┐╜я┐╜я┐╜я┐╜
+#define STSTR_SCRNSHT_RUS   "crhbyijn"                  // я┐╜я┐╜риня┐╜я┐╜
 
 
 //
 // M_Menu.C
 //
 
-#define STSTR_CROSSHAIR_ON_RUS  "ghbwtk drk.xty"    // Прицел включен
-#define STSTR_CROSSHAIR_OFF_RUS "ghbwtk dsrk.xty"   // Прицел выключен
+#define STSTR_CROSSHAIR_ON_RUS  "ghbwtk drk.xty"    // я┐╜я┐╜цел я┐╜я┐╜я┐╜я┐╜чен
+#define STSTR_CROSSHAIR_OFF_RUS "ghbwtk dsrk.xty"   // я┐╜я┐╜цел я┐╜ыкля┐╜чен
 
-#define PRESSKEY_RUS    "(yf;vbnt k.,e. rkfdbie)"   // (Нажмите любую клавишу)
-#define PRESSYN_RUS     "(yf;vbnt ^#^ bkb ^@^)"     // (Нажмите "Y" или "N")
-#define DOSY_RUS        "(yf;vbnt ^#^ xnj,s dsqnb)" // (Нажмите "Y" чтобы выйти)
+#define PRESSKEY_RUS    "(yf;vbnt k.,e. rkfdbie)"   // (я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜)
+#define PRESSYN_RUS     "(yf;vbnt ^#^ bkb ^@^)"     // (я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ "Y" я┐╜я┐╜я┐╜ "N")
+#define DOSY_RUS        "(yf;vbnt ^#^ xnj,s dsqnb)" // (я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ "Y" я┐╜тобя┐╜ я┐╜я┐╜я┐╜)
 
-#define QUITMSG_RUS     "ds ltqcndbntkmyj ]jnbnt dsqnb\nbp 'njq pfvtxfntkmyjq buhs?"                // Вы действительно хотите выйти \n из этой замечательной игры?
-#define LOADNET_RUS     "ytdjpvj;yj pfuhepbnm cj[hfytyye.\nbuhe d ctntdjq buht!\n\n"PRESSKEY_RUS    // Невозможно загрузить сохраненую \n игру в сетевой игре!
-#define QLOADNET_RUS    "ytdjpvj;yj pfuhepbnm ,scnhjt\ncj[hfytybt d ctntdjq buht!\n\n"PRESSKEY_RUS  // Невозможно загрузить быстрое \n сохранение в сетевой игре!
-#define QSAVESPOT_RUS   "e dfc yt ds,hfy ckjn ,scnhjuj cj[hfytybz!\n\n"PRESSKEY_RUS                 // У Вас не выбран слот быстрого сохранения!
-#define SAVEDEAD_RUS    "ytdjpvj;yj cj[hfybnm buhe< yt yfxfd tt!\n\n"PRESSKEY_RUS                   // Невозможно сохранить игру, не начав её!
+#define QUITMSG_RUS     "ds ltqcndbntkmyj ]jnbnt dsqnb\nbp 'njq pfvtxfntkmyjq buhs?"                // я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜твительно я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ \n я┐╜я┐╜ я┐╜той я┐╜я┐╜я┐╜я┐╜я┐╜тельноя┐╜ я┐╜я┐╜я┐╜я┐╜?
+#define LOADNET_RUS     "ytdjpvj;yj pfuhepbnm cj[hfytyye.\nbuhe d ctntdjq buht!\n\n"PRESSKEY_RUS    // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜узия┐╜я┐╜ я┐╜я┐╜раня┐╜я┐╜я┐╜я┐╜ \n я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜тевя┐╜я┐╜ я┐╜я┐╜я┐╜!
+#define QLOADNET_RUS    "ytdjpvj;yj pfuhepbnm ,scnhjt\ncj[hfytybt d ctntdjq buht!\n\n"PRESSKEY_RUS  // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜узия┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜рое \n я┐╜я┐╜раня┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜тевя┐╜я┐╜ я┐╜я┐╜я┐╜!
+#define QSAVESPOT_RUS   "e dfc yt ds,hfy ckjn ,scnhjuj cj[hfytybz!\n\n"PRESSKEY_RUS                 // я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜ран слоя┐╜ я┐╜я┐╜я┐╜я┐╜рогя┐╜ я┐╜я┐╜раня┐╜я┐╜я┐╜я┐╜!
+#define SAVEDEAD_RUS    "ytdjpvj;yj cj[hfybnm buhe< yt yfxfd tt!\n\n"PRESSKEY_RUS                   // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜раня┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜чав я┐╜я┐╜!
 #define QSPROMPT_RUS    "gthtpfgbcfnm ,scnhjt cj[hfytybt\n^%s^?\n\n"PRESSKEY_RUS                    // quicksave over your game named\n\n'%s'?\n\n
 #define QLPROMPT_RUS    "pfuhepbnm ,scnhjt cj[hfytybt\n^%s^?\n\n"PRESSKEY_RUS                       // do you want to quickload the game named\n'%s'?\n\n
 
-#define RD_ON_RUS       "drk"       // вкл
-#define RD_OFF_RUS      "dsrk"      // выкл
-#define RD_NEXT_RUS     "lfktt \\"   // далее >
-#define RD_PREV_RUS     "/ yfpfl"   // < назад
+#define RD_ON_RUS       "drk"       // я┐╜я┐╜я┐╜
+#define RD_OFF_RUS      "dsrk"      // я┐╜ыкл
+#define RD_NEXT_RUS     "lfktt \\"   // я┐╜я┐╜я┐╜я┐╜я┐╜ >
+#define RD_PREV_RUS     "/ yfpfl"   // < я┐╜я┐╜я┐╜я┐╜я┐╜
 
-// Внутриигровые настройки будут
-// сброшены на стандартные значения.
+// я┐╜я┐╜я┐╜я┐╜риия┐╜ровя┐╜ я┐╜я┐╜я┐╜я┐╜ройя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜шеня┐╜ я┐╜я┐╜ я┐╜таня┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ченя┐╜я┐╜.
 //
-// Уверены, что хотите продолжить?
+// я┐╜я┐╜я┐╜реня┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜?
 #define RD_DEFAULTS_RUS                 \
 "dyenhbbuhjdst yfcnhjqrb ,elen\n"       \
 "c,hjitys yf cnfylfhnyst pyfxtybz>\n"   \
@@ -1021,44 +1021,44 @@ extern char* ststr_version;
 "edthtys< xnj [jnbnt ghjljk;bnm?\n\n"   \
 PRESSYN_RUS
 
-// Невозможно начать новую игру
-// при активной сетевой игре.
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜ я┐╜я┐╜тивя┐╜я┐╜я┐╜ я┐╜тевя┐╜я┐╜ я┐╜я┐╜я┐╜.
 #define NEWGAME_RUS             \
 "ytdjpvj;yj yfxfnm yjde. buhe\n"\
 "ghb frnbdyjq ctntdjq buht>\n\n"PRESSKEY_RUS 
 
-// Уверены? этот уровень сложности
-// даже не близок к честному.
+// я┐╜я┐╜я┐╜реня┐╜? я┐╜я┐╜я┐╜ я┐╜ровя┐╜я┐╜я┐╜ слоя┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜тноя┐╜я┐╜.
 #define NIGHTMARE_RUS              \
 "edthtys? 'njn ehjdtym ckj;yjcnb\n"\
 "lf;t yt ,kbpjr r xtcnyjve>\n\n"PRESSYN_RUS 
 
-// Монстры не воскрешаются, однако
-// их скорость и степень наносимого 
-// ими урона, увеличены.
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜ скоя┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜тепя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜симя┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜ я┐╜роня┐╜, увея┐╜я┐╜ченя┐╜.
 //
-// Уверены, что сможете выжить?
+// я┐╜я┐╜я┐╜реня┐╜, я┐╜я┐╜ смоя┐╜я┐╜я┐╜ я┐╜ыжия┐╜я┐╜?
 #define ULTRANM_RUS                \
 "vjycnhs yt djcrhtif.ncz< jlyfrj\n"\
 "b[ crjhjcnm b cntgtym yfyjcbvjuj\n"  \
 "bvb ehjyf< edtkbxtys>\n\n"\
 "edthtys< xnj cvj;tnt ds;bnm?\n\n"PRESSYN_RUS
 
-// Это демонстрационная версия игры.
-// Вам необходимо приобрести всю трилогию.
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜циоя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
+// я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ходя┐╜я┐╜я┐╜ я┐╜риоя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜риля┐╜я┐╜я┐╜я┐╜.
 #define SWSTRING_RUS                   \
 "'nj ltvjycnhfwbjyyfz dthcbz buhs>\n\n"\
 "dfv ytj,[jlbvj ghbj,htcnb dc. nhbkjub.>\n\n"PRESSKEY_RUS 
 
-#define MSGOFF_RUS  "cjj,otybz dsrk.xtys"                                   // Сообщения выключены
-#define MSGON_RUS   "cjj,otybz drk.xtys"                                    // Сообщения включены
-#define NETEND_RUS  "ytdjpvj;yj pfrjyxbnm ctntde. buhe!\n\n"PRESSKEY_RUS        // Невозможно закончить сетевую игру!
-#define ENDGAME_RUS "ds ltqcndbntkmyj [jnbnt pfrjyxbnm buhe?\n\n"PRESSYN_RUS    // Вы действительно хотите закончить игру?
+#define MSGOFF_RUS  "cjj,otybz dsrk.xtys"                                   // я┐╜я┐╜я┐╜я┐╜щеня┐╜я┐╜ я┐╜ыкля┐╜ченя┐╜
+#define MSGON_RUS   "cjj,otybz drk.xtys"                                    // я┐╜я┐╜я┐╜я┐╜щеня┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ченя┐╜
+#define NETEND_RUS  "ytdjpvj;yj pfrjyxbnm ctntde. buhe!\n\n"PRESSKEY_RUS        // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜тевя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜!
+#define ENDGAME_RUS "ds ltqcndbntkmyj [jnbnt pfrjyxbnm buhe?\n\n"PRESSYN_RUS    // я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜твительно я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜?
 
-#define DETAILHI_RUS    "dscjrfz ltnfkbpfwbz"   // Высокая детализация
-#define DETAILLO_RUS    "ybprfz ltnfkbpfwbz"    // Низкая детализация
+#define DETAILHI_RUS    "dscjrfz ltnfkbpfwbz"   // я┐╜я┐╜сокя┐╜я┐╜ я┐╜я┐╜таля┐╜я┐╜я┐╜я┐╜я┐╜
+#define DETAILLO_RUS    "ybprfz ltnfkbpfwbz"    // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜таля┐╜я┐╜я┐╜я┐╜я┐╜
 
-// Улучшенная (PALFIX) и стандартная (PLAYPAL) гамма-коррекция 
+// я┐╜я┐╜я┐╜я┐╜шеня┐╜я┐╜я┐╜ (PALFIX) я┐╜ я┐╜таня┐╜я┐╜я┐╜тная┐╜ (PLAYPAL) я┐╜я┐╜я┐╜я┐╜я┐╜-я┐╜я┐╜я┐╜рекя┐╜я┐╜ 
 #define GAMMA_0_50_RUS  "ehjdtym ufvvf-rjhhtrwbb 0>50"
 #define GAMMA_0_55_RUS  "ehjdtym ufvvf-rjhhtrwbb 0>55"
 #define GAMMA_0_60_RUS  "ehjdtym ufvvf-rjhhtrwbb 0>60"
@@ -1083,12 +1083,12 @@ PRESSYN_RUS
 // P_Doors.C
 //
 
-#define PD_BLUEO_RUS    "lkz frnbdfwbb ye;ty cbybq rk.x>"   // Для активации нужен синий ключ.
-#define PD_REDO_RUS     "lkz frnbdfwbb ye;ty rhfcysq rk.x>" // Для активации нужен красный ключ.
-#define PD_YELLOWO_RUS  "lkz frnbdfwbb ye;ty ;tknsq rk.x>"  // Для активации нужен желтый ключ.
-#define PD_BLUEK_RUS    "lkz jnrhsnbz ye;ty cbybq rk.x>"    // Для открытия нужен синий ключ.
-#define PD_REDK_RUS     "lkz jnrhsnbz ye;ty rhfcysq rk.x>"  // Для открытия нужен красный ключ.
-#define PD_YELLOWK_RUS  "lkz jnrhsnbz ye;ty ;tknsq rk.x>"   // Для открытия нужен жёлтый ключ.
+#define PD_BLUEO_RUS    "lkz frnbdfwbb ye;ty cbybq rk.x>"   // я┐╜я┐╜я┐╜ я┐╜я┐╜тивя┐╜ции я┐╜ужея┐╜ синя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
+#define PD_REDO_RUS     "lkz frnbdfwbb ye;ty rhfcysq rk.x>" // я┐╜я┐╜я┐╜ я┐╜я┐╜тивя┐╜ции я┐╜ужея┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
+#define PD_YELLOWO_RUS  "lkz frnbdfwbb ye;ty ;tknsq rk.x>"  // я┐╜я┐╜я┐╜ я┐╜я┐╜тивя┐╜ции я┐╜ужея┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
+#define PD_BLUEK_RUS    "lkz jnrhsnbz ye;ty cbybq rk.x>"    // я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ужея┐╜ синя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
+#define PD_REDK_RUS     "lkz jnrhsnbz ye;ty rhfcysq rk.x>"  // я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ужея┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
+#define PD_YELLOWK_RUS  "lkz jnrhsnbz ye;ty ;tknsq rk.x>"   // я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ужея┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
 
 
 //
@@ -1096,278 +1096,278 @@ PRESSYN_RUS
 //
 
 // armor
-#define GOTARMOR_RUS    "gjkextyf ,hjyz>"           // Получена броня.
-#define GOTMEGA_RUS     "gjkextyf vtuf,hjyz!"       // Получена мегаброня!
+#define GOTARMOR_RUS    "gjkextyf ,hjyz>"           // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜роня┐╜.
+#define GOTMEGA_RUS     "gjkextyf vtuf,hjyz!"       // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜роня┐╜!
 
 // bonus items
-#define GOTHTHBONUS_RUS "gjkexty ,jyec pljhjdmz>"       // Получен бонус здоровья.
-#define GOTARMBONUS_RUS "gjkexty ,jyec ,hjyb>"          // Получен бонус брони.
-#define GOTSCEPTRE_RUS  "gjkexty lmzdjkmcrbq crbgtnh>"  // Получен дьявольский скипетр.
-#define GOTBIBLE_RUS    "gjkextyf ytxtcnbdfz ,b,kbz>"   // Получена нечестивая Библия.
-#define GOTSUPER_RUS    "cdth[pfhzl!"                   // Сверхзаряд!
-#define GOTMSPHERE_RUS  "vtufcathf!"                    // Мегасфера!
+#define GOTHTHBONUS_RUS "gjkexty ,jyec pljhjdmz>"       // я┐╜я┐╜я┐╜я┐╜чен я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ровя┐╜я┐╜.
+#define GOTARMBONUS_RUS "gjkexty ,jyec ,hjyb>"          // я┐╜я┐╜я┐╜я┐╜чен я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜роня┐╜.
+#define GOTSCEPTRE_RUS  "gjkexty lmzdjkmcrbq crbgtnh>"  // я┐╜я┐╜я┐╜я┐╜чен я┐╜я┐╜явоя┐╜я┐╜ския┐╜ ския┐╜я┐╜я┐╜я┐╜.
+#define GOTBIBLE_RUS    "gjkextyf ytxtcnbdfz ,b,kbz>"   // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜я┐╜тивя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTSUPER_RUS    "cdth[pfhzl!"                   // я┐╜я┐╜я┐╜я┐╜хзая┐╜я┐╜!
+#define GOTMSPHERE_RUS  "vtufcathf!"                    // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜!
 // press beta items
-#define GOTDAGGER_RUS       "gjkexty ltvjybxtcrbq rby;fk>"      // Получен демонический кинжал.
-#define GOTCHEST_RUS        "gjkexty ceyler c xthtgfvb>"        // Получен сундук с черепами.
-#define GOTEXTRALIFE_RUS    "gjkextyf ljgjkybntkmyfz ;bpym!"    // Получена дополнительная жизнь!
+#define GOTDAGGER_RUS       "gjkexty ltvjybxtcrbq rby;fk>"      // я┐╜я┐╜я┐╜я┐╜чен я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ския┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTCHEST_RUS        "gjkexty ceyler c xthtgfvb>"        // я┐╜я┐╜я┐╜я┐╜чен я┐╜ундя┐╜ я┐╜ я┐╜репя┐╜я┐╜я┐╜.
+#define GOTEXTRALIFE_RUS    "gjkextyf ljgjkybntkmyfz ;bpym!"    // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тельная┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜!
 
-#define GOTBLUECARD_RUS "gjkextyf cbyzz rk.x-rfhnf>"    // Получена синяя ключ-карта.
-#define GOTYELWCARD_RUS "gjkextyf ;tknfz rk.x-rfhnf>"   // Получена желтая ключ-карта
-#define GOTREDCARD_RUS  "gjkextyf rhfcyfz rk.x-rfhnf>"  // Получена красная ключ-карта.
-#define GOTBLUESKUL_RUS "gjkexty cbybq rk.x-xthtg>"     // Получен синий ключ-череп.
-#define GOTYELWSKUL_RUS "gjkexty ;tknsq rk.x-xthtg>"    // Получен желтый ключ-череп.
-#define GOTREDSKULL_RUS "gjkexty rhfcysq rk.x-xthtg>"   // Получен красный ключ-череп.
+#define GOTBLUECARD_RUS "gjkextyf cbyzz rk.x-rfhnf>"    // я┐╜я┐╜я┐╜я┐╜ченя┐╜ синя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜.
+#define GOTYELWCARD_RUS "gjkextyf ;tknfz rk.x-rfhnf>"   // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜
+#define GOTREDCARD_RUS  "gjkextyf rhfcyfz rk.x-rfhnf>"  // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜сная┐╜ я┐╜я┐╜я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜.
+#define GOTBLUESKUL_RUS "gjkexty cbybq rk.x-xthtg>"     // я┐╜я┐╜я┐╜я┐╜чен синя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜-я┐╜реп.
+#define GOTYELWSKUL_RUS "gjkexty ;tknsq rk.x-xthtg>"    // я┐╜я┐╜я┐╜я┐╜чен я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜-я┐╜реп.
+#define GOTREDSKULL_RUS "gjkexty rhfcysq rk.x-xthtg>"   // я┐╜я┐╜я┐╜я┐╜чен я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜-я┐╜реп.
 
 // medikits, heals
-#define GOTSTIM_RUS     "gjkexty cnbvekznjh>"                   // Получен стимулятор.
-#define GOTMEDINEED_RUS "gjkextyf rhfqyt ytj,[jlbvfz fgntxrf!"  // Получена крайне необходимая аптечка!
-#define GOTMEDIKIT_RUS  "gjkextyf fgntxrf>"                     // Получена аптечка.
+#define GOTSTIM_RUS     "gjkexty cnbvekznjh>"                   // я┐╜я┐╜я┐╜я┐╜чен я┐╜тимя┐╜я┐╜я┐╜я┐╜.
+#define GOTMEDINEED_RUS "gjkextyf rhfqyt ytj,[jlbvfz fgntxrf!"  // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜райя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ходя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜чка!
+#define GOTMEDIKIT_RUS  "gjkextyf fgntxrf>"                     // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜чка.
 
 // power ups
-#define GOTINVUL_RUS    "ytezpdbvjcnm!"                 // Неуязвимость!
-#define GOTBERSERK_RUS  ",thcthr!"                      // Берсерк!
-#define GOTINVIS_RUS    "xfcnbxyfz ytdblbvjcnm>"        // Частичная невидимость.
-#define GOTSUIT_RUS	    "rjcn.v hflbfwbjyyjq pfobns>"   // Костюм радиационной защиты.
-#define GOTMAP_RUS      "rjvgm.nthyfz rfhnf ehjdyz>"    // Компьютерная карта уровня.
-#define GOTVISOR_RUS    "dbpjh ecbktybz jcdtotybz>"     // Визор усиления освещения.
+#define GOTINVUL_RUS    "ytezpdbvjcnm!"                 // я┐╜я┐╜я┐╜язвя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜!
+#define GOTBERSERK_RUS  ",thcthr!"                      // я┐╜я┐╜я┐╜я┐╜я┐╜!
+#define GOTINVIS_RUS    "xfcnbxyfz ytdblbvjcnm>"        // я┐╜я┐╜я┐╜я┐╜чная┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTSUIT_RUS	    "rjcn.v hflbfwbjyyjq pfobns>"   // я┐╜я┐╜я┐╜я┐╜я┐╜ радя┐╜я┐╜циоя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTMAP_RUS      "rjvgm.nthyfz rfhnf ehjdyz>"    // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рная┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜ровя┐╜я┐╜.
+#define GOTVISOR_RUS    "dbpjh ecbktybz jcdtotybz>"     // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜силя┐╜я┐╜я┐╜я┐╜ я┐╜свещеня┐╜я┐╜.
 
 // ammo
-#define GOTCLIP_RUS     "gjkextyf j,jqvf>"                          // Получена обойма.
-#define GOTCLIPBOX_RUS  "gjkextyf rjhj,rf gfnhjyjd>"                // Получена коробка патронов.
-#define GOTROCKET_RUS   "gjkextyf hfrtnf>"                          // Получена ракета.
-#define GOTROCKET2_RUS  "gjkextyj ldt hfrtns>"                      // Получено две ракеты.
-#define GOTROCKBOX_RUS  "gjkexty zobr hfrtn>"                       // Получен ящик ракет.
-#define GOTCELL_RUS     "gjkextyf 'ythuj,fnfhtz>"                   // Получена энергобатарея.
-#define GOTCELLBOX_RUS  "gjkexty 'ythujfrrevekznjh>"                // Получен энергоаккумулятор.
-#define GOTSHELLS_RUS   "gjkextyj 4 gfnhjyf lkz lhj,jdbrf>"         // Получено 4 патрона для дробовика.
-#define GOTSHELLS8_RUS  "gjkextyj 8 gfnhjyjd lkz lhj,jdbrf>"        // Получено 8 патронов для дробовика.
-#define GOTSHELLBOX_RUS "gjkextyf rjhj,rf gfnhjyjd lkz lhj,jdbrf>"  // Получена коробка патронов для дробовика.
-#define GOTBACKPACK_RUS "gjkexty h.rpfr c ,jtghbgfcfvb!"            // Получен рюкзак с боеприпасами!
+#define GOTCLIP_RUS     "gjkextyf j,jqvf>"                          // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTCLIPBOX_RUS  "gjkextyf rjhj,rf gfnhjyjd>"                // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜робя┐╜я┐╜ я┐╜я┐╜я┐╜роня┐╜я┐╜.
+#define GOTROCKET_RUS   "gjkextyf hfrtnf>"                          // я┐╜я┐╜я┐╜я┐╜ченя┐╜ ракя┐╜я┐╜.
+#define GOTROCKET2_RUS  "gjkextyj ldt hfrtns>"                      // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜ ракя┐╜я┐╜я┐╜.
+#define GOTROCKBOX_RUS  "gjkexty zobr hfrtn>"                       // я┐╜я┐╜я┐╜я┐╜чен я┐╜щик ракя┐╜я┐╜.
+#define GOTCELL_RUS     "gjkextyf 'ythuj,fnfhtz>"                   // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜ргоя┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTCELLBOX_RUS  "gjkexty 'ythujfrrevekznjh>"                // я┐╜я┐╜я┐╜я┐╜чен я┐╜ргоя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTSHELLS_RUS   "gjkextyj 4 gfnhjyf lkz lhj,jdbrf>"         // я┐╜я┐╜я┐╜я┐╜ченя┐╜ 4 я┐╜я┐╜я┐╜роня┐╜ я┐╜я┐╜я┐╜ я┐╜робя┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTSHELLS8_RUS  "gjkextyj 8 gfnhjyjd lkz lhj,jdbrf>"        // я┐╜я┐╜я┐╜я┐╜ченя┐╜ 8 я┐╜я┐╜я┐╜роня┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜робя┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTSHELLBOX_RUS "gjkextyf rjhj,rf gfnhjyjd lkz lhj,jdbrf>"  // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜робя┐╜я┐╜ я┐╜я┐╜я┐╜роня┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜робя┐╜я┐╜я┐╜я┐╜я┐╜.
+#define GOTBACKPACK_RUS "gjkexty h.rpfr c ,jtghbgfcfvb!"            // я┐╜я┐╜я┐╜я┐╜чен я┐╜юкзя┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜рипя┐╜самя┐╜!
 
 // weapons
-#define GOTBFG9000_RUS  "gjkextyj &9000! j lf>"             // Получено BFG9000! О да.
-#define GOTCHAINGUN_RUS "gjkexty gektvtn!"                  // Получен пулемет!
-#define GOTCHAINSAW_RUS ",typjgbkf! yfqlb ytvyjuj vzcf!"    // Бензопила! Найди немного мяса!
-#define GOTLAUNCHER_RUS "gjkextyf hfrtnybwf!"               // Получена ракетница!
-#define GOTPLASMA_RUS   "gjkextyf gkfpvtyyfz geirf!"        // Получена плазменная пушка!
-#define GOTSHOTGUN_RUS  "gjkexty lhj,jdbr!"                 // Получен дробовик!
-#define GOTSHOTGUN2_RUS "gjkextyj ldecndjkmyjt he;mt!"      // Получено двуствольное ружье!
+#define GOTBFG9000_RUS  "gjkextyj &9000! j lf>"             // я┐╜я┐╜я┐╜я┐╜ченя┐╜ BFG9000! я┐╜ я┐╜я┐╜.
+#define GOTCHAINGUN_RUS "gjkexty gektvtn!"                  // я┐╜я┐╜я┐╜я┐╜чен я┐╜улея┐╜я┐╜я┐╜!
+#define GOTCHAINSAW_RUS ",typjgbkf! yfqlb ytvyjuj vzcf!"    // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜! я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜!
+#define GOTLAUNCHER_RUS "gjkextyf hfrtnybwf!"               // я┐╜я┐╜я┐╜я┐╜ченя┐╜ ракя┐╜тния┐╜!
+#define GOTPLASMA_RUS   "gjkextyf gkfpvtyyfz geirf!"        // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜шка!
+#define GOTSHOTGUN_RUS  "gjkexty lhj,jdbr!"                 // я┐╜я┐╜я┐╜я┐╜чен я┐╜робя┐╜я┐╜я┐╜я┐╜!
+#define GOTSHOTGUN2_RUS "gjkextyj ldecndjkmyjt he;mt!"      // я┐╜я┐╜я┐╜я┐╜ченя┐╜ я┐╜я┐╜я┐╜я┐╜твоя┐╜ьноя┐╜ я┐╜я┐╜я┐╜!
 
 
 //
 // P_Spec.C
 //
 
-#define SECRETFOUND_RUS "j,yfhe;ty nfqybr!"     // Обнаружен тайник!
+#define SECRETFOUND_RUS "j,yfhe;ty nfqybr!"     // я┐╜я┐╜я┐╜я┐╜я┐╜ужея┐╜ тайя┐╜я┐╜я┐╜!
 
 
 //
 // ST_stuff.C
 //
 
-#define STSTR_MUS_RUS       "cvtyf vepsrb>>>"                           // Смена музыки...
-#define STSTR_NOMUS_RUS     "ytrjhhtrnysq ds,jh"                        // Некорректный выбор
-#define STSTR_DQDON_RUS     "ytezpdbvjcnm frnbdbhjdfyf"                 // Неуязвимость активирована
-#define STSTR_DQDOFF_RUS    "ytezpdbvjcnm ltfrnbdbhjdfyf"               // Неуязвимость деактивирована
+#define STSTR_MUS_RUS       "cvtyf vepsrb>>>"                           // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ыки...
+#define STSTR_NOMUS_RUS     "ytrjhhtrnysq ds,jh"                        // я┐╜я┐╜я┐╜я┐╜я┐╜рекя┐╜я┐╜ я┐╜ыбоя┐╜
+#define STSTR_DQDON_RUS     "ytezpdbvjcnm frnbdbhjdfyf"                 // я┐╜я┐╜я┐╜язвя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜тивя┐╜ровя┐╜я┐╜я┐╜
+#define STSTR_DQDOFF_RUS    "ytezpdbvjcnm ltfrnbdbhjdfyf"               // я┐╜я┐╜я┐╜язвя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜тивя┐╜ровя┐╜я┐╜я┐╜
 
-#define STSTR_KFAADDED_RUS  ",jtpfgfc gjgjkyty"                         // Боезапас пополнен
-#define STSTR_FAADDED_RUS   ",jtpfgfc gjgjkyty (,tp rk.xtq)"            // Боезапас пополнен (без ключей)
-#define STSTR_KAADDED_RUS   "rk.xb gjkextys"                            // Ключи получены
+#define STSTR_KFAADDED_RUS  ",jtpfgfc gjgjkyty"                         // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define STSTR_FAADDED_RUS   ",jtpfgfc gjgjkyty (,tp rk.xtq)"            // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ (я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜чей)
+#define STSTR_KAADDED_RUS   "rk.xb gjkextys"                            // я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ченя┐╜
 
-#define STSTR_NCON_RUS      "ghj[j;ltybt xthtp cntys frnbdbhjdfyj"      // Прохождение через стены активировано
-#define STSTR_NCOFF_RUS     "ghj[j;ltybt xthtp cntys ltfrnbdbhjdfyj"    // Прохождение через стены дереактивировано
+#define STSTR_NCON_RUS      "ghj[j;ltybt xthtp cntys frnbdbhjdfyj"      // я┐╜я┐╜хожя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜рез я┐╜теня┐╜ я┐╜я┐╜тивя┐╜ровя┐╜я┐╜я┐╜
+#define STSTR_NCOFF_RUS     "ghj[j;ltybt xthtp cntys ltfrnbdbhjdfyj"    // я┐╜я┐╜хожя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜рез я┐╜теня┐╜ я┐╜я┐╜реая┐╜тивя┐╜ровя┐╜я┐╜я┐╜
 
-#define STSTR_CHOPPERS_RUS  ">>> yt lehcndtyyj - u>v>"                  // ... не дурственно - г.м.
-#define STSTR_CLEV_RUS      "cvtyf ehjdyz>>>"                           // Смена уровня...
+#define STSTR_CHOPPERS_RUS  ">>> yt lehcndtyyj - u>v>"                  // ... я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜твея┐╜я┐╜я┐╜ - я┐╜.я┐╜.
+#define STSTR_CLEV_RUS      "cvtyf ehjdyz>>>"                           // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ровя┐╜я┐╜...
 
-#define STSTR_BEHOLD_RUS    "v=,tccv>< s=,thc>< i=ytd>< r=rjc>< a=rhn>< l=dbp>" // m=бессм., ы=берс., ш=нев., к=кос., ф=крт., д=виз.
-#define STSTR_BEHOLDX_RUS   "ghtlvtn frnbdbhjdfy"                       // Предмет активирован
-#define STSTR_BEHOLDZ_RUS   "ghtlvtn ltfrnbdbhjdfy"                     // Предмет деактивирован
+#define STSTR_BEHOLD_RUS    "v=,tccv>< s=,thc>< i=ytd>< r=rjc>< a=rhn>< l=dbp>" // m=я┐╜я┐╜я┐╜я┐╜., я┐╜=я┐╜я┐╜я┐╜я┐╜., я┐╜=я┐╜я┐╜я┐╜., я┐╜=я┐╜я┐╜я┐╜., я┐╜=я┐╜я┐╜я┐╜., я┐╜=я┐╜я┐╜я┐╜.
+#define STSTR_BEHOLDX_RUS   "ghtlvtn frnbdbhjdfy"                       // я┐╜редя┐╜я┐╜я┐╜ я┐╜я┐╜тивя┐╜ровя┐╜я┐╜
+#define STSTR_BEHOLDZ_RUS   "ghtlvtn ltfrnbdbhjdfy"                     // я┐╜редя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜тивя┐╜ровя┐╜я┐╜
 
-#define STSTR_MASSACRE_RUS  "eybxnj;tyj vjycnhjd:"                      // Уничтожено монстров:
+#define STSTR_MASSACRE_RUS  "eybxnj;tyj vjycnhjd:"                      // я┐╜я┐╜я┐╜я┐╜тожя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ров:
 
 
 //
 // HU_stuff.C
 //
 
-#define HUSTR_MSGU_RUS  "(cjj,otybt yt jnghfdktyj)" // (Сообщение не отправлено)
+#define HUSTR_MSGU_RUS  "(cjj,otybt yt jnghfdktyj)" // (я┐╜я┐╜я┐╜я┐╜щеня┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜равя┐╜я┐╜я┐╜я┐╜)
 
 
 //
 // DOOM 1
 //
 
-#define HUSTR_E1M1_RUS  "t1v1: fyufh"                               // E1M1: Ангар
-#define HUSTR_E1M2_RUS  "t1v2: fnjvyfz 'ktrnhjcnfywbz"              // E1M2: Атомная электростанция
-#define HUSTR_E1M3_RUS  "t1v3: pfdjl gj gththf,jnrt zlj[bvbrfnjd"   // E1M3: Завод по переработке ядохимикатов
-#define HUSTR_E1M4_RUS  "t1v4: rjvfylysq geyrn"                     // E1M4: Командный пункт
-#define HUSTR_E1M5_RUS  "t1v5: kf,jhfnjhbz yf aj,jct"               // E1M5: Лаборатория на Фобосе
-#define HUSTR_E1M6_RUS  "t1v6: wtynhfkmysq geyrn j,hf,jnrb"         // E1M6: Центральный пункт обработки
-#define HUSTR_E1M7_RUS  "t1v7: dsxbckbntkmysq wtynh"                // E1M7: Вычислительный центр
-#define HUSTR_E1M8_RUS  "t1v8: fyjvfkbz yf aj,jct"                  // E1M8: Аномалия на Фобосе
-#define HUSTR_E1M9_RUS  "t1v9: djtyyfz ,fpf"                        // E1M9: Военная база
-#define HUSTR_E2M1_RUS  "t2v1: fyjvfkbz yf ltqvjct"                 // E2M1: Аномалия на Деймосе
-#define HUSTR_E2M2_RUS  "t2v2: [hfybkbot"                           // E2M2: Хранилище
-#define HUSTR_E2M3_RUS  "t2v3: jxbcnbntkmysq pfdjl"                 // E2M3: Очистительный завод
-#define HUSTR_E2M4_RUS  "t2v4: kf,jhfnjhbz yf ltqvjct"              // E2M4: Лаборатория на Деймосе
-#define HUSTR_E2M5_RUS  "t2v5: rjvfylysq wtynh"                     // E2M5: Командный центр
-#define HUSTR_E2M6_RUS  "t2v6: pfks ghjrkzns["                      // E2M6: Залы проклятых
-#define HUSTR_E2M7_RUS  "t2v7: ythtcnbkbot"                         // E2M7: Нерестилище
-#define HUSTR_E2M8_RUS  "t2v8: dfdbkjycrfz ,fiyz"                   // E2M8: Вавилонская башня
-#define HUSTR_E2M9_RUS  "t2v9: rhtgjcnm nfqy"                       // E2M9: Крепость тайн
-#define HUSTR_E3M1_RUS  "t3v1: rhtgjcnm flf"                        // E3M1: Крепость Ада
-#define HUSTR_E3M2_RUS  "t3v2: nhzcbyf jnxfzybz"                    // E3M2: Трясина отчаяния
-#define HUSTR_E3M3_RUS  "t3v3: gfyltvjybq"                          // E3M3: Пандемоний
-#define HUSTR_E3M4_RUS  "t3v4: ljv ,jkb"                            // E3M4: Дом боли
-#define HUSTR_E3M5_RUS  "t3v5: ytxtcnbdsq cj,jh"                    // E3M5: Нечестивый собор
-#define HUSTR_E3M6_RUS  "t3v6: ujhf 'ht,"                           // E3M6: Гора Эреб
-#define HUSTR_E3M7_RUS  "t3v7: dhfnf d kbv,"                        // E3M7: Врата в Лимб
-#define HUSTR_E3M8_RUS  "t3v8: lbn"                                 // E3M8: Дит
-#define HUSTR_E3M9_RUS  "t3v9: rhjkbxbq cfl"                        // E3M9: Кроличий сад
-#define HUSTR_E4M1_RUS  "t4v1: gjl fljv"                            // E4M1: Под Адом
-#define HUSTR_E4M2_RUS  "t4v2: bcnbyyfz ytyfdbcnm"                  // E4M2: Истинная ненависть
-#define HUSTR_E4M3_RUS  "t4v3: bcnzpfybt ytxtcnbds["                // E4M3: Истязание нечестивых
-#define HUSTR_E4M4_RUS  "t4v4: ytelth;bvjt pkj"                     // E4M4: Неудержимое зло
-#define HUSTR_E4M5_RUS  "t4v5: jyb gjrf.ncz"                        // E4M5: Они покаются
-#define HUSTR_E4M6_RUS  "t4v6: ceghjnbd cb[ ytxtcnbds["             // E4M6: Супротив сих нечестивых
-#define HUSTR_E4M7_RUS  "t4v7: b gjcktljdfk fl"                     // E4M7: И последовал Ад
-#define HUSTR_E4M8_RUS  "t4v8: lj ,tccthltxbz"                      // E4M8: До бессердечия
-#define HUSTR_E4M9_RUS  "t4v9: cnhf["                               // E4M9: Страх
-#define HUSTR_E5M1_RUS  "t5v1: dkfltybz ,fajvtnf"                   // E5M1: Владения Бафомета
-#define HUSTR_E5M2_RUS  "t5v2: itjk"                                // E5M2: Шеол
-#define HUSTR_E5M3_RUS  "t5v3: rktnb ghjrkzns["                     // E5M3: Клети проклятых
-#define HUSTR_E5M4_RUS  "t5v4: genb ytcxfcnmz"                      // E5M4: Пути несчастья
-#define HUSTR_E5M5_RUS  "t5v5: ,tplyf f,flljyf"                     // E5M5: Бездна Абаддона
-#define HUSTR_E5M6_RUS  "t5v6: ytukfcyjt ujytybt"                   // E5M6: Негласное гонение
-#define HUSTR_E5M7_RUS  "t5v7: j,bntkm rjivfhf"                     // E5M7: Обитель кошмара
-#define HUSTR_E5M8_RUS  "t5v8: pfks gjub,tkb"                       // E5M8: Залы погибели
-#define HUSTR_E5M9_RUS  "t5v9: wfhcndj b,kbcf"                      // E5M9: Царство Иблиса
+#define HUSTR_E1M1_RUS  "t1v1: fyufh"                               // E1M1: я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E1M2_RUS  "t1v2: fnjvyfz 'ktrnhjcnfywbz"              // E1M2: я┐╜томя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜таня┐╜я┐╜
+#define HUSTR_E1M3_RUS  "t1v3: pfdjl gj gththf,jnrt zlj[bvbrfnjd"   // E1M3: я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜рабя┐╜тке ядохимя┐╜я┐╜я┐╜тов
+#define HUSTR_E1M4_RUS  "t1v4: rjvfylysq geyrn"                     // E1M4: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ункя┐╜
+#define HUSTR_E1M5_RUS  "t1v5: kf,jhfnjhbz yf aj,jct"               // E1M5: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E1M6_RUS  "t1v6: wtynhfkmysq geyrn j,hf,jnrb"         // E1M6: я┐╜я┐╜я┐╜я┐╜раля┐╜я┐╜ я┐╜ункя┐╜ я┐╜я┐╜рабя┐╜тки
+#define HUSTR_E1M7_RUS  "t1v7: dsxbckbntkmysq wtynh"                // E1M7: я┐╜я┐╜я┐╜слителя┐╜я┐╜ ценя┐╜я┐╜
+#define HUSTR_E1M8_RUS  "t1v8: fyjvfkbz yf aj,jct"                  // E1M8: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E1M9_RUS  "t1v9: djtyyfz ,fpf"                        // E1M9: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E2M1_RUS  "t2v1: fyjvfkbz yf ltqvjct"                 // E2M1: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E2M2_RUS  "t2v2: [hfybkbot"                           // E2M2: я┐╜раня┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E2M3_RUS  "t2v3: jxbcnbntkmysq pfdjl"                 // E2M3: я┐╜я┐╜я┐╜я┐╜теля┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E2M4_RUS  "t2v4: kf,jhfnjhbz yf ltqvjct"              // E2M4: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E2M5_RUS  "t2v5: rjvfylysq wtynh"                     // E2M5: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ ценя┐╜я┐╜
+#define HUSTR_E2M6_RUS  "t2v6: pfks ghjrkzns["                      // E2M6: я┐╜я┐╜я┐╜я┐╜ я┐╜рокя┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E2M7_RUS  "t2v7: ythtcnbkbot"                         // E2M7: я┐╜я┐╜я┐╜я┐╜тиля┐╜я┐╜
+#define HUSTR_E2M8_RUS  "t2v8: dfdbkjycrfz ,fiyz"                   // E2M8: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ская┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E2M9_RUS  "t2v9: rhtgjcnm nfqy"                       // E2M9: я┐╜репя┐╜я┐╜я┐╜я┐╜ тайя┐╜
+#define HUSTR_E3M1_RUS  "t3v1: rhtgjcnm flf"                        // E3M1: я┐╜репя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜
+#define HUSTR_E3M2_RUS  "t3v2: nhzcbyf jnxfzybz"                    // E3M2: я┐╜я┐╜я┐╜синя┐╜ я┐╜я┐╜я┐╜яния┐╜
+#define HUSTR_E3M3_RUS  "t3v3: gfyltvjybq"                          // E3M3: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E3M4_RUS  "t3v4: ljv ,jkb"                            // E3M4: я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E3M5_RUS  "t3v5: ytxtcnbdsq cj,jh"                    // E3M5: я┐╜я┐╜я┐╜я┐╜тивя┐╜ собя┐╜я┐╜
+#define HUSTR_E3M6_RUS  "t3v6: ujhf 'ht,"                           // E3M6: я┐╜я┐╜я┐╜ я┐╜реб
+#define HUSTR_E3M7_RUS  "t3v7: dhfnf d kbv,"                        // E3M7: я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E3M8_RUS  "t3v8: lbn"                                 // E3M8: я┐╜я┐╜я┐╜
+#define HUSTR_E3M9_RUS  "t3v9: rhjkbxbq cfl"                        // E3M9: я┐╜роля┐╜чий сад
+#define HUSTR_E4M1_RUS  "t4v1: gjl fljv"                            // E4M1: я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E4M2_RUS  "t4v2: bcnbyyfz ytyfdbcnm"                  // E4M2: я┐╜я┐╜тиня┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E4M3_RUS  "t4v3: bcnzpfybt ytxtcnbds["                // E4M3: я┐╜я┐╜я┐╜язая┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜тивя┐╜я┐╜
+#define HUSTR_E4M4_RUS  "t4v4: ytelth;bvjt pkj"                     // E4M4: я┐╜я┐╜удержия┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜
+#define HUSTR_E4M5_RUS  "t4v5: jyb gjrf.ncz"                        // E4M5: я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E4M6_RUS  "t4v6: ceghjnbd cb[ ytxtcnbds["             // E4M6: я┐╜я┐╜я┐╜тив я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜тивя┐╜я┐╜
+#define HUSTR_E4M7_RUS  "t4v7: b gjcktljdfk fl"                     // E4M7: я┐╜ я┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜
+#define HUSTR_E4M8_RUS  "t4v8: lj ,tccthltxbz"                      // E4M8: я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜рдея┐╜я┐╜
+#define HUSTR_E4M9_RUS  "t4v9: cnhf["                               // E4M9: я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E5M1_RUS  "t5v1: dkfltybz ,fajvtnf"                   // E5M1: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜фомя┐╜я┐╜
+#define HUSTR_E5M2_RUS  "t5v2: itjk"                                // E5M2: я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E5M3_RUS  "t5v3: rktnb ghjrkzns["                     // E5M3: я┐╜я┐╜я┐╜я┐╜ я┐╜рокя┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E5M4_RUS  "t5v4: genb ytcxfcnmz"                      // E5M4: я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E5M5_RUS  "t5v5: ,tplyf f,flljyf"                     // E5M5: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E5M6_RUS  "t5v6: ytukfcyjt ujytybt"                   // E5M6: я┐╜я┐╜я┐╜я┐╜я┐╜сноя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E5M7_RUS  "t5v7: j,bntkm rjivfhf"                     // E5M7: я┐╜я┐╜я┐╜теля┐╜ я┐╜я┐╜шмая┐╜
+#define HUSTR_E5M8_RUS  "t5v8: pfks gjub,tkb"                       // E5M8: я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_E5M9_RUS  "t5v9: wfhcndj b,kbcf"                      // E5M9: я┐╜я┐╜я┐╜я┐╜тво я┐╜я┐╜я┐╜я┐╜я┐╜
 
 
 //
-// DOOM2: Ад на Земле
+// DOOM2: я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
 //
 
-#define HUSTR_1_RUS     "ehjdtym 1: gfhflysq d[jl"                  // Уровень 1: Парадный вход
-#define HUSTR_2_RUS     "ehjdtym 2: gjlptvyst pfks"                 // Уровень 2: Подземные залы
-#define HUSTR_3_RUS     "ehjdtym 3: dspjd ,hjity"                   // Уровень 3: Вызов брошен
-#define HUSTR_4_RUS     "ehjdtym 4: chtljnjxbt"                     // Уровень 4: Средоточие
-#define HUSTR_5_RUS     "ehjdtym 5: cnjxyst neyytkb"                // Уровень 5: Сточные туннели
-#define HUSTR_6_RUS     "ehjdtym 6: ghtcc"                          // Уровень 6: Пресс
-#define HUSTR_7_RUS     "ehjdtym 7: cvthntkmyj ghjcnjq"             // Уровень 7: Смертельно простой
-#define HUSTR_8_RUS     "ehjdtym 8: ekjdrb b kjdeirb"               // Уровень 8: Уловки и ловушки
-#define HUSTR_9_RUS     "ehjdtym 9: zvf"                            // Уровень 9: Яма
-#define HUSTR_10_RUS    "ehjdtym 10: pfghfdjxyfz ,fpf"              // Уровень 10: Заправочная база
-#define HUSTR_11_RUS    "ehjdtym 11: ^j^ hfpheitybz!"               // Уровень 11: "o" разрушения!
-#define HUSTR_12_RUS    "ehjdtym 12: af,hbrf"                       // Уровень 12: Фабрика
-#define HUSTR_13_RUS    "ehjdtym 13: ltkjdjq hfqjy"                 // Уровень 13: Деловой район
-#define HUSTR_14_RUS    "ehjdtym 14: uke,jxfqibt kjujdbof"          // Уровень 14: Глубочайшие логовища
-#define HUSTR_15_RUS    "ehjdtym 15: ghjvsiktyyfz pjyf"             // Уровень 15: Промышленная зона
-#define HUSTR_16_RUS    "ehjdtym 16: ghbujhjl"                      // Уровень 16: Пригород 
-#define HUSTR_17_RUS    "ehjdtym 17: dkfltybz"                      // Уровень 17: Владения 
-#define HUSTR_18_RUS    "ehjdtym 18: dyenhtyybq ldjh"               // Уровень 18: Внутренний двор
-#define HUSTR_19_RUS    "ehjdtym 19: wbnfltkm"                      // Уровень 19: Цитадель 
-#define HUSTR_20_RUS    "ehjdtym 20: gjgfkcz!"                      // Уровень 20: Попался!
-#define HUSTR_21_RUS    "ehjdtym 21: ybhdfyf"                       // Уровень 21: Нирвана 
-#define HUSTR_22_RUS    "ehjdtym 22: rfnfrjv,s"                     // Уровень 22: Катакомбы 
-#define HUSTR_23_RUS    "ehjdtym 23: wtkst ,jxrb dtctkmz"           // Уровень 23: Целые бочки веселья
-#define HUSTR_24_RUS    "ehjdtym 24: ghjgfcnm"                      // Уровень 24: Пропасть 
-#define HUSTR_25_RUS    "ehjdtym 25: rhjdjgfls"                     // Уровень 25: Кровопады
-#define HUSTR_26_RUS    "ehjdtym 26: pf,hjityyst if[ns"             // Уровень 26: Заброшенные шахты
-#define HUSTR_27_RUS    "ehjdtym 27: rjyljvbybev vjycnhjd"          // Уровень 27: Кондоминиум монстров
-#define HUSTR_28_RUS    "ehjdtym 28: vbh le[jd"                     // Уровень 28: Мир Духов
-#define HUSTR_29_RUS    "ehjdtym 29: rjytw dctuj ;bdjuj"            // Уровень 29: Конец всего живого
-#define HUSTR_30_RUS    "ehjdtym 30: brjyf uht[f"                   // Уровень 30: Икона греха
-#define HUSTR_31_RUS    "ehjdtym 31: djkmatyinfqy"                  // Уровень 31: Вольфенштайн
-#define HUSTR_32_RUS    "ehjdtym 32: uhjcct"                        // Уровень 32: Гроссе
-
-
-//
-// Final DOOM: Эксперимент "Плутония"
-//
-
-#define PHUSTR_1_RUS    "ehjdtym 1: rjyuj"                  // Уровень 1: Конго
-#define PHUSTR_2_RUS    "ehjdtym 2: rjkjltw lei"            // Уровень 2: Колодец душ
-#define PHUSTR_3_RUS    "ehjdtym 3: fwntr"                  // Уровень 3: Ацтек
-#define PHUSTR_4_RUS    "ehjdtym 4: pfgthnsq d rktnrt"      // Уровень 4: Запертый в клетке
-#define PHUSTR_5_RUS    "ehjdtym 5: ujhjl-ghbphfr"          // Уровень 5: Город-призрак
-#define PHUSTR_6_RUS    "ehjdtym 6: kjujdj ,fhjyf"          // Уровень 6: Логово Барона
-#define PHUSTR_7_RUS    "ehjdtym 7: ldjh-kjdeirf"           // Уровень 7: Двор-ловушка
-#define PHUSTR_8_RUS    "ehjdtym 8: wfhcndj"                // Уровень 8: Царство
-#define PHUSTR_9_RUS    "ehjdtym 9: f,,fncndj"              // Уровень 9: Аббатство
-#define PHUSTR_10_RUS   "ehjdtym 10: yfnbcr"                // Уровень 10: Натиск
-#define PHUSTR_11_RUS   "ehjdtym 11: ghtcktletvsq"          // Уровень 11: Преследуемый
-#define PHUSTR_12_RUS   "ehjdtym 12: crjhjcnm"              // Уровень 12: Скорость
-#define PHUSTR_13_RUS   "ehjdtym 13: crktg"                 // Уровень 13: Склеп
-#define PHUSTR_14_RUS   "ehjdtym 14: pfhj;ltybt"            // Уровень 14: Зарождение
-#define PHUSTR_15_RUS   "ehjdtym 15: cevthrb"               // Уровень 15: Сумерки
-#define PHUSTR_16_RUS   "ehjdtym 16: ghtlpyfvtyjdfybt"      // Уровень 16: Предзнаменование
-#define PHUSTR_17_RUS   "ehjdtym 17: rjvgfeyl"              // Уровень 17: Компаунд
-#define PHUSTR_18_RUS   "ehjdtym 18: ytqhjcathf"            // Уровень 18: Нейросфера
-#define PHUSTR_19_RUS   "ehjdtym 19: d>h>f>u>"              // Уровень 19: В.Р.А.Г.
-#define PHUSTR_20_RUS   "ehjdtym 20: j,bntkm cvthnb"        // Уровень 20: Обитель Смерти
-#define PHUSTR_21_RUS   "ehjdtym 21: e,bqwf"                // Уровень 21: Убийца
-#define PHUSTR_22_RUS   "ehjdtym 22: ytdsgjkybvjt pflfybt"  // Уровень 22: Невыполнимое задание
-#define PHUSTR_23_RUS   "ehjdtym 23: yfluhj,bt"             // Уровень 23: Надгробие
-#define PHUSTR_24_RUS   "ehjdtym 24: gjcktlybq he,t;"       // Уровень 24: Последний рубеж
-#define PHUSTR_25_RUS   "ehjdtym 25: [hfv nmvs"             // Уровень 25: Храм тьмы
-#define PHUSTR_26_RUS   "ehjdtym 26: ,eyrth"                // Уровень 26: Бункер
-#define PHUSTR_27_RUS   "ehjdtym 27: fynb[hbcn"             // Уровень 27: Антихрист
-#define PHUSTR_28_RUS   "ehjdtym 28: rfyfkbpfwbz"           // Уровень 28: Канализация
-#define PHUSTR_29_RUS   "ehjdtym 29: jlbcctz ievjd"         // Уровень 29: Одиссея шумов
-#define PHUSTR_30_RUS   "ehjdtym 30: dhfnf flf"             // Уровень 30: Врата Ада
-#define PHUSTR_31_RUS   "ehjdtym 31: rb,thkjujdj"           // Уровень 31: Киберлогово
-#define PHUSTR_32_RUS   "ehjdtym 32: blb r ctve"            // Уровень 32: Иди к сему
+#define HUSTR_1_RUS     "ehjdtym 1: gfhflysq d[jl"                  // я┐╜ровя┐╜я┐╜я┐╜ 1: я┐╜я┐╜радя┐╜я┐╜ я┐╜ход
+#define HUSTR_2_RUS     "ehjdtym 2: gjlptvyst pfks"                 // я┐╜ровя┐╜я┐╜я┐╜ 2: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_3_RUS     "ehjdtym 3: dspjd ,hjity"                   // я┐╜ровя┐╜я┐╜я┐╜ 3: я┐╜ызоя┐╜ я┐╜я┐╜шен
+#define HUSTR_4_RUS     "ehjdtym 4: chtljnjxbt"                     // я┐╜ровя┐╜я┐╜я┐╜ 4: я┐╜редя┐╜я┐╜чие
+#define HUSTR_5_RUS     "ehjdtym 5: cnjxyst neyytkb"                // я┐╜ровя┐╜я┐╜я┐╜ 5: я┐╜я┐╜я┐╜я┐╜ я┐╜уння┐╜я┐╜я┐╜
+#define HUSTR_6_RUS     "ehjdtym 6: ghtcc"                          // я┐╜ровя┐╜я┐╜я┐╜ 6: я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_7_RUS     "ehjdtym 7: cvthntkmyj ghjcnjq"             // я┐╜ровя┐╜я┐╜я┐╜ 7: я┐╜я┐╜я┐╜я┐╜тельно я┐╜я┐╜я┐╜той
+#define HUSTR_8_RUS     "ehjdtym 8: ekjdrb b kjdeirb"               // я┐╜ровя┐╜я┐╜я┐╜ 8: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜шки
+#define HUSTR_9_RUS     "ehjdtym 9: zvf"                            // я┐╜ровя┐╜я┐╜я┐╜ 9: я┐╜я┐╜я┐╜
+#define HUSTR_10_RUS    "ehjdtym 10: pfghfdjxyfz ,fpf"              // я┐╜ровя┐╜я┐╜я┐╜ 10: я┐╜я┐╜я┐╜равя┐╜чная┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_11_RUS    "ehjdtym 11: ^j^ hfpheitybz!"               // я┐╜ровя┐╜я┐╜я┐╜ 11: "o" разя┐╜я┐╜шеня┐╜я┐╜!
+#define HUSTR_12_RUS    "ehjdtym 12: af,hbrf"                       // я┐╜ровя┐╜я┐╜я┐╜ 12: я┐╜я┐╜я┐╜рикя┐╜
+#define HUSTR_13_RUS    "ehjdtym 13: ltkjdjq hfqjy"                 // я┐╜ровя┐╜я┐╜я┐╜ 13: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ райя┐╜я┐╜
+#define HUSTR_14_RUS    "ehjdtym 14: uke,jxfqibt kjujdbof"          // я┐╜ровя┐╜я┐╜я┐╜ 14: я┐╜я┐╜убочайшие я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_15_RUS    "ehjdtym 15: ghjvsiktyyfz pjyf"             // я┐╜ровя┐╜я┐╜я┐╜ 15: я┐╜ромя┐╜шлея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_16_RUS    "ehjdtym 16: ghbujhjl"                      // я┐╜ровя┐╜я┐╜я┐╜ 16: я┐╜ригя┐╜род 
+#define HUSTR_17_RUS    "ehjdtym 17: dkfltybz"                      // я┐╜ровя┐╜я┐╜я┐╜ 17: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ 
+#define HUSTR_18_RUS    "ehjdtym 18: dyenhtyybq ldjh"               // я┐╜ровя┐╜я┐╜я┐╜ 18: я┐╜я┐╜я┐╜я┐╜реня┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_19_RUS    "ehjdtym 19: wbnfltkm"                      // я┐╜ровя┐╜я┐╜я┐╜ 19: я┐╜я┐╜тадя┐╜я┐╜я┐╜ 
+#define HUSTR_20_RUS    "ehjdtym 20: gjgfkcz!"                      // я┐╜ровя┐╜я┐╜я┐╜ 20: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜!
+#define HUSTR_21_RUS    "ehjdtym 21: ybhdfyf"                       // я┐╜ровя┐╜я┐╜я┐╜ 21: я┐╜я┐╜рвая┐╜я┐╜ 
+#define HUSTR_22_RUS    "ehjdtym 22: rfnfrjv,s"                     // я┐╜ровя┐╜я┐╜я┐╜ 22: я┐╜я┐╜такя┐╜я┐╜я┐╜я┐╜ 
+#define HUSTR_23_RUS    "ehjdtym 23: wtkst ,jxrb dtctkmz"           // я┐╜ровя┐╜я┐╜я┐╜ 23: я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜чки я┐╜я┐╜селя┐╜я┐╜
+#define HUSTR_24_RUS    "ehjdtym 24: ghjgfcnm"                      // я┐╜ровя┐╜я┐╜я┐╜ 24: я┐╜ропя┐╜я┐╜я┐╜я┐╜ 
+#define HUSTR_25_RUS    "ehjdtym 25: rhjdjgfls"                     // я┐╜ровя┐╜я┐╜я┐╜ 25: я┐╜ровя┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_26_RUS    "ehjdtym 26: pf,hjityyst if[ns"             // я┐╜ровя┐╜я┐╜я┐╜ 26: я┐╜я┐╜я┐╜я┐╜шеня┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_27_RUS    "ehjdtym 27: rjyljvbybev vjycnhjd"          // я┐╜ровя┐╜я┐╜я┐╜ 27: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ров
+#define HUSTR_28_RUS    "ehjdtym 28: vbh le[jd"                     // я┐╜ровя┐╜я┐╜я┐╜ 28: я┐╜я┐╜я┐╜ я┐╜я┐╜хов
+#define HUSTR_29_RUS    "ehjdtym 29: rjytw dctuj ;bdjuj"            // я┐╜ровя┐╜я┐╜я┐╜ 29: я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜сегя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define HUSTR_30_RUS    "ehjdtym 30: brjyf uht[f"                   // я┐╜ровя┐╜я┐╜я┐╜ 30: я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜
+#define HUSTR_31_RUS    "ehjdtym 31: djkmatyinfqy"                  // я┐╜ровя┐╜я┐╜я┐╜ 31: я┐╜я┐╜я┐╜я┐╜феня┐╜тайя┐╜
+#define HUSTR_32_RUS    "ehjdtym 32: uhjcct"                        // я┐╜ровя┐╜я┐╜я┐╜ 32: я┐╜я┐╜я┐╜я┐╜
 
 
 //
-// Final DOOM: TNT - Дьяволюция
+// Final DOOM: я┐╜я┐╜сперимя┐╜я┐╜я┐╜ "я┐╜я┐╜я┐╜тоня┐╜я┐╜"
 //
 
-#define THUSTR_1_RUS    "ehjdtym 1: wtynh eghfdktybz cbcntvjq"      // Уровень 1: Центр управления системой
-#define THUSTR_2_RUS    "ehjdtym 2: ,fh,tr. bp xtkjdtxbys"          // Уровень 2: Барбекю из человечины
-#define THUSTR_3_RUS    "ehjdtym 3: wtynh eghfdktybz gbnfybtv"      // Уровень 3: Центр управления питанием
-#define THUSTR_4_RUS    "ehjdtym 4: lshf dj dhtvtyb"                // Уровень 4: Дыра во времени
-#define THUSTR_5_RUS    "ehjdtym 5: dbctkbwf"                       // Уровень 5: Виселица
-#define THUSTR_6_RUS    "ehjdtym 6: jnrhsnsq ctpjy"                 // Уровень 6: Открытый сезон
-#define THUSTR_7_RUS    "ehjdtym 7: n.hmvf"                         // Уровень 7: Тюрьма
-#define THUSTR_8_RUS    "ehjdtym 8: vtnfkk"                         // Уровень 8: Металл
-#define THUSTR_9_RUS    "ehjdtym 9: rhtgjcnm"                       // Уровень 9: Крепость
-#define THUSTR_10_RUS   "ehjdtym 10: bcregktybt"                    // Уровень 10: Искупление
-#define THUSTR_11_RUS   "ehjdtym 11: crkfl"                         // Уровень 11: Склад
-#define THUSTR_12_RUS   "ehjdtym 12: rhfnth"                        // Уровень 12: Кратер
-#define THUSTR_13_RUS   "ehjdtym 13: gththf,jnrf zlthys[ jn[jljd"   // Уровень 13: Переработка ядерных отходов
-#define THUSTR_14_RUS   "ehjdtym 14: cnfktkbntqysq pfdjl"           // Уровень 14: Cталелитейный завод
-#define THUSTR_15_RUS   "ehjdtym 15: vthndfz pjyf"                  // Уровень 15: Мертвая зона
-#define THUSTR_16_RUS   "ehjdtym 16: uke,jxfqibt ljcnb;tybz"        // Уровень 16: Глубочайшие достижения
-#define THUSTR_17_RUS   "ehjdtym 17: pjyf j,hf,jnrb"                // Уровень 17: Зона обработки
-#define THUSTR_18_RUS   "ehjdtym 18: pfdjl"                         // Уровень 18: Завод
-#define THUSTR_19_RUS   "ehjdtym 19: gjuheprf*jnghfdrf"             // Уровень 19: Погрузка/отправка
-#define THUSTR_20_RUS   "ehjdtym 20: wtynhfkmysq geyrn j,hf,jnrb"   // Уровень 20: Центральный пункт обработки
-#define THUSTR_21_RUS   "ehjdtym 21: flvbybcnhfnbdysq wtynh"        // Уровень 21: Административный центр
-#define THUSTR_22_RUS   "ehjdtym 22: j,bnfkbot"                     // Уровень 22: Обиталище
-#define THUSTR_23_RUS   "ehjdtym 23: keyysq ujhysq ghjtrn"          // Уровень 23: Лунный горный проект
-#define THUSTR_24_RUS   "ehjdtym 24: rfhmth"                        // Уровень 24: Карьер
-#define THUSTR_25_RUS   "ehjdtym 25: kjujdj ,fhjyf"                 // Уровень 25: Логово Барона
-#define THUSTR_26_RUS   "ehjdtym 26: ,fkkbcnbrc"                    // Уровень 26: Баллистикс
-#define THUSTR_27_RUS   "ehjdtym 27: ujhf ,jkm"                     // Уровень 27: Гора Боль
-#define THUSTR_28_RUS   "ehjdtym 28: xthnjdobyf"                    // Уровень 28: Чертовщина
-#define THUSTR_29_RUS   "ehjdtym 29: htrf cnbrc"                    // Уровень 29: Река Стикс
-#define THUSTR_30_RUS   "ehjdtym 30: gjcktlybq dspjd"               // Уровень 30: Последний вызов
-#define THUSTR_31_RUS   "ehjdtym 31: afhfjy"                        // Уровень 31: Фараон
-#define THUSTR_32_RUS   "ehjdtym 32: rfhb,s"                        // Уровень 32: Карибы
+#define PHUSTR_1_RUS    "ehjdtym 1: rjyuj"                  // я┐╜ровя┐╜я┐╜я┐╜ 1: я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_2_RUS    "ehjdtym 2: rjkjltw lei"            // я┐╜ровя┐╜я┐╜я┐╜ 2: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜
+#define PHUSTR_3_RUS    "ehjdtym 3: fwntr"                  // я┐╜ровя┐╜я┐╜я┐╜ 3: я┐╜я┐╜тек
+#define PHUSTR_4_RUS    "ehjdtym 4: pfgthnsq d rktnrt"      // я┐╜ровя┐╜я┐╜я┐╜ 4: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜тке
+#define PHUSTR_5_RUS    "ehjdtym 5: ujhjl-ghbphfr"          // я┐╜ровя┐╜я┐╜я┐╜ 5: я┐╜я┐╜род-я┐╜ризрак
+#define PHUSTR_6_RUS    "ehjdtym 6: kjujdj ,fhjyf"          // я┐╜ровя┐╜я┐╜я┐╜ 6: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜роня┐╜
+#define PHUSTR_7_RUS    "ehjdtym 7: ldjh-kjdeirf"           // я┐╜ровя┐╜я┐╜я┐╜ 7: я┐╜я┐╜я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜шка
+#define PHUSTR_8_RUS    "ehjdtym 8: wfhcndj"                // я┐╜ровя┐╜я┐╜я┐╜ 8: я┐╜я┐╜я┐╜я┐╜тво
+#define PHUSTR_9_RUS    "ehjdtym 9: f,,fncndj"              // я┐╜ровя┐╜я┐╜я┐╜ 9: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тво
+#define PHUSTR_10_RUS   "ehjdtym 10: yfnbcr"                // я┐╜ровя┐╜я┐╜я┐╜ 10: я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_11_RUS   "ehjdtym 11: ghtcktletvsq"          // я┐╜ровя┐╜я┐╜я┐╜ 11: я┐╜я┐╜слея┐╜уемя┐╜
+#define PHUSTR_12_RUS   "ehjdtym 12: crjhjcnm"              // я┐╜ровя┐╜я┐╜я┐╜ 12: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_13_RUS   "ehjdtym 13: crktg"                 // я┐╜ровя┐╜я┐╜я┐╜ 13: я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_14_RUS   "ehjdtym 14: pfhj;ltybt"            // я┐╜ровя┐╜я┐╜я┐╜ 14: я┐╜я┐╜рожя┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_15_RUS   "ehjdtym 15: cevthrb"               // я┐╜ровя┐╜я┐╜я┐╜ 15: я┐╜умерки
+#define PHUSTR_16_RUS   "ehjdtym 16: ghtlpyfvtyjdfybt"      // я┐╜ровя┐╜я┐╜я┐╜ 16: я┐╜редя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_17_RUS   "ehjdtym 17: rjvgfeyl"              // я┐╜ровя┐╜я┐╜я┐╜ 17: я┐╜я┐╜я┐╜я┐╜я┐╜унд
+#define PHUSTR_18_RUS   "ehjdtym 18: ytqhjcathf"            // я┐╜ровя┐╜я┐╜я┐╜ 18: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_19_RUS   "ehjdtym 19: d>h>f>u>"              // я┐╜ровя┐╜я┐╜я┐╜ 19: я┐╜.я┐╜.я┐╜.я┐╜.
+#define PHUSTR_20_RUS   "ehjdtym 20: j,bntkm cvthnb"        // я┐╜ровя┐╜я┐╜я┐╜ 20: я┐╜я┐╜я┐╜теля┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_21_RUS   "ehjdtym 21: e,bqwf"                // я┐╜ровя┐╜я┐╜я┐╜ 21: я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_22_RUS   "ehjdtym 22: ytdsgjkybvjt pflfybt"  // я┐╜ровя┐╜я┐╜я┐╜ 22: я┐╜я┐╜я┐╜ыпоя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_23_RUS   "ehjdtym 23: yfluhj,bt"             // я┐╜ровя┐╜я┐╜я┐╜ 23: я┐╜я┐╜я┐╜я┐╜робя┐╜я┐╜
+#define PHUSTR_24_RUS   "ehjdtym 24: gjcktlybq he,t;"       // я┐╜ровя┐╜я┐╜я┐╜ 24: я┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜ я┐╜убея┐╜
+#define PHUSTR_25_RUS   "ehjdtym 25: [hfv nmvs"             // я┐╜ровя┐╜я┐╜я┐╜ 25: я┐╜рам я┐╜я┐╜я┐╜
+#define PHUSTR_26_RUS   "ehjdtym 26: ,eyrth"                // я┐╜ровя┐╜я┐╜я┐╜ 26: я┐╜ункя┐╜я┐╜
+#define PHUSTR_27_RUS   "ehjdtym 27: fynb[hbcn"             // я┐╜ровя┐╜я┐╜я┐╜ 27: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_28_RUS   "ehjdtym 28: rfyfkbpfwbz"           // я┐╜ровя┐╜я┐╜я┐╜ 28: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_29_RUS   "ehjdtym 29: jlbcctz ievjd"         // я┐╜ровя┐╜я┐╜я┐╜ 29: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜умоя┐╜
+#define PHUSTR_30_RUS   "ehjdtym 30: dhfnf flf"             // я┐╜ровя┐╜я┐╜я┐╜ 30: я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜
+#define PHUSTR_31_RUS   "ehjdtym 31: rb,thkjujdj"           // я┐╜ровя┐╜я┐╜я┐╜ 31: я┐╜я┐╜я┐╜я┐╜рлоя┐╜я┐╜я┐╜я┐╜
+#define PHUSTR_32_RUS   "ehjdtym 32: blb r ctve"            // я┐╜ровя┐╜я┐╜я┐╜ 32: я┐╜я┐╜я┐╜ я┐╜ семя┐╜
 
 
 //
-// Макросы для чата
+// Final DOOM: TNT - я┐╜я┐╜явоя┐╜я┐╜я┐╜я┐╜
+//
+
+#define THUSTR_1_RUS    "ehjdtym 1: wtynh eghfdktybz cbcntvjq"      // я┐╜ровя┐╜я┐╜я┐╜ 1: я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜равя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜темя┐╜я┐╜
+#define THUSTR_2_RUS    "ehjdtym 2: ,fh,tr. bp xtkjdtxbys"          // я┐╜ровя┐╜я┐╜я┐╜ 2: я┐╜я┐╜рбея┐╜я┐╜ я┐╜я┐╜ челя┐╜я┐╜я┐╜чиня┐╜
+#define THUSTR_3_RUS    "ehjdtym 3: wtynh eghfdktybz gbnfybtv"      // я┐╜ровя┐╜я┐╜я┐╜ 3: я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜равя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜таня┐╜я┐╜я┐╜
+#define THUSTR_4_RUS    "ehjdtym 4: lshf dj dhtvtyb"                // я┐╜ровя┐╜я┐╜я┐╜ 4: я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜ремя┐╜я┐╜я┐╜
+#define THUSTR_5_RUS    "ehjdtym 5: dbctkbwf"                       // я┐╜ровя┐╜я┐╜я┐╜ 5: я┐╜я┐╜селя┐╜я┐╜
+#define THUSTR_6_RUS    "ehjdtym 6: jnrhsnsq ctpjy"                 // я┐╜ровя┐╜я┐╜я┐╜ 6: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ сезя┐╜я┐╜
+#define THUSTR_7_RUS    "ehjdtym 7: n.hmvf"                         // я┐╜ровя┐╜я┐╜я┐╜ 7: я┐╜я┐╜я┐╜ьма
+#define THUSTR_8_RUS    "ehjdtym 8: vtnfkk"                         // я┐╜ровя┐╜я┐╜я┐╜ 8: я┐╜я┐╜таля┐╜
+#define THUSTR_9_RUS    "ehjdtym 9: rhtgjcnm"                       // я┐╜ровя┐╜я┐╜я┐╜ 9: я┐╜репя┐╜я┐╜я┐╜я┐╜
+#define THUSTR_10_RUS   "ehjdtym 10: bcregktybt"                    // я┐╜ровя┐╜я┐╜я┐╜ 10: я┐╜я┐╜упля┐╜я┐╜я┐╜я┐╜
+#define THUSTR_11_RUS   "ehjdtym 11: crkfl"                         // я┐╜ровя┐╜я┐╜я┐╜ 11: я┐╜я┐╜я┐╜я┐╜я┐╜
+#define THUSTR_12_RUS   "ehjdtym 12: rhfnth"                        // я┐╜ровя┐╜я┐╜я┐╜ 12: я┐╜я┐╜я┐╜я┐╜
+#define THUSTR_13_RUS   "ehjdtym 13: gththf,jnrf zlthys[ jn[jljd"   // я┐╜ровя┐╜я┐╜я┐╜ 13: я┐╜я┐╜я┐╜рабя┐╜тка ядея┐╜я┐╜я┐╜ я┐╜я┐╜ходя┐╜я┐╜
+#define THUSTR_14_RUS   "ehjdtym 14: cnfktkbntqysq pfdjl"           // я┐╜ровя┐╜я┐╜я┐╜ 14: Cталя┐╜я┐╜я┐╜тейя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+#define THUSTR_15_RUS   "ehjdtym 15: vthndfz pjyf"                  // я┐╜ровя┐╜я┐╜я┐╜ 15: я┐╜я┐╜я┐╜твая┐╜ я┐╜я┐╜я┐╜я┐╜
+#define THUSTR_16_RUS   "ehjdtym 16: uke,jxfqibt ljcnb;tybz"        // я┐╜ровя┐╜я┐╜я┐╜ 16: я┐╜я┐╜убочайшие я┐╜я┐╜я┐╜тижя┐╜я┐╜я┐╜я┐╜
+#define THUSTR_17_RUS   "ehjdtym 17: pjyf j,hf,jnrb"                // я┐╜ровя┐╜я┐╜я┐╜ 17: я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜рабя┐╜тки
+#define THUSTR_18_RUS   "ehjdtym 18: pfdjl"                         // я┐╜ровя┐╜я┐╜я┐╜ 18: я┐╜я┐╜я┐╜я┐╜я┐╜
+#define THUSTR_19_RUS   "ehjdtym 19: gjuheprf*jnghfdrf"             // я┐╜ровя┐╜я┐╜я┐╜ 19: я┐╜я┐╜я┐╜я┐╜узкя┐╜/я┐╜я┐╜равя┐╜я┐╜
+#define THUSTR_20_RUS   "ehjdtym 20: wtynhfkmysq geyrn j,hf,jnrb"   // я┐╜ровя┐╜я┐╜я┐╜ 20: я┐╜я┐╜я┐╜я┐╜раля┐╜я┐╜ я┐╜ункя┐╜ я┐╜я┐╜рабя┐╜тки
+#define THUSTR_21_RUS   "ehjdtym 21: flvbybcnhfnbdysq wtynh"        // я┐╜ровя┐╜я┐╜я┐╜ 21: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тивя┐╜я┐╜ ценя┐╜я┐╜
+#define THUSTR_22_RUS   "ehjdtym 22: j,bnfkbot"                     // я┐╜ровя┐╜я┐╜я┐╜ 22: я┐╜я┐╜я┐╜таля┐╜я┐╜
+#define THUSTR_23_RUS   "ehjdtym 23: keyysq ujhysq ghjtrn"          // я┐╜ровя┐╜я┐╜я┐╜ 23: я┐╜уння┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜роея┐╜я┐╜
+#define THUSTR_24_RUS   "ehjdtym 24: rfhmth"                        // я┐╜ровя┐╜я┐╜я┐╜ 24: я┐╜я┐╜я┐╜я┐╜я┐╜
+#define THUSTR_25_RUS   "ehjdtym 25: kjujdj ,fhjyf"                 // я┐╜ровя┐╜я┐╜я┐╜ 25: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜роня┐╜
+#define THUSTR_26_RUS   "ehjdtym 26: ,fkkbcnbrc"                    // я┐╜ровя┐╜я┐╜я┐╜ 26: я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тикя┐╜
+#define THUSTR_27_RUS   "ehjdtym 27: ujhf ,jkm"                     // я┐╜ровя┐╜я┐╜я┐╜ 27: я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+#define THUSTR_28_RUS   "ehjdtym 28: xthnjdobyf"                    // я┐╜ровя┐╜я┐╜я┐╜ 28: я┐╜я┐╜я┐╜товщиня┐╜
+#define THUSTR_29_RUS   "ehjdtym 29: htrf cnbrc"                    // я┐╜ровя┐╜я┐╜я┐╜ 29: я┐╜я┐╜я┐╜я┐╜ я┐╜тикя┐╜
+#define THUSTR_30_RUS   "ehjdtym 30: gjcktlybq dspjd"               // я┐╜ровя┐╜я┐╜я┐╜ 30: я┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜ я┐╜ызоя┐╜
+#define THUSTR_31_RUS   "ehjdtym 31: afhfjy"                        // я┐╜ровя┐╜я┐╜я┐╜ 31: я┐╜я┐╜раоя┐╜
+#define THUSTR_32_RUS   "ehjdtym 32: rfhb,s"                        // я┐╜ровя┐╜я┐╜я┐╜ 32: я┐╜я┐╜рибя┐╜
+
+
+//
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜
 // 
 
-#define HUSTR_TALKTOSELF1_RUS   "ythfp,jhxbdjt ,jhvjnfybt>>>"   // Неразборчивое бормотание...
-#define HUSTR_TALKTOSELF2_RUS   "rnj nfv?"                      // Кто там?
-#define HUSTR_TALKTOSELF3_RUS   "xnj 'nj ,skj?"                 // Что это было?
-#define HUSTR_TALKTOSELF4_RUS   "ds ,htlbnt>"                   // Вы бредите.
-#define HUSTR_TALKTOSELF5_RUS   "rfrfz ljcflf!"                 // Какая досада!
+#define HUSTR_TALKTOSELF1_RUS   "ythfp,jhxbdjt ,jhvjnfybt>>>"   // я┐╜я┐╜разя┐╜я┐╜я┐╜чивя┐╜я┐╜ я┐╜я┐╜рмотаня┐╜я┐╜...
+#define HUSTR_TALKTOSELF2_RUS   "rnj nfv?"                      // я┐╜я┐╜ там?
+#define HUSTR_TALKTOSELF3_RUS   "xnj 'nj ,skj?"                 // я┐╜я┐╜ я┐╜я┐╜ я┐╜ыло?
+#define HUSTR_TALKTOSELF4_RUS   "ds ,htlbnt>"                   // я┐╜я┐╜ я┐╜редя┐╜я┐╜.
+#define HUSTR_TALKTOSELF5_RUS   "rfrfz ljcflf!"                 // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜садя┐╜!
 
 
 //
@@ -1390,20 +1390,20 @@ PRESSYN_RUS
 "ghjqlbnt 'gbpjl ^ghb,ht;mt flf^ b tuj\n"\
 "pfvtxfntkmysq cbrdtk ^byathyj^!\n"
 
-// Уничтожив Баронов Ада и зачистив лунную
-// базу, Вы должны были победить, не так ли?
-// Не так ли? Где заслуженная награда и
-// билет домой? Что это за чертовщина?
-// Так не должно было все закончиться!
+// я┐╜я┐╜я┐╜я┐╜тожя┐╜я┐╜ я┐╜я┐╜роня┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜тив я┐╜уння┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ыли я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ так я┐╜я┐╜?
+// я┐╜я┐╜ так я┐╜я┐╜? я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ужея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜радя┐╜ я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜? я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜товщиня┐╜?
+// я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ыло я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜!
 // 
-// Это место пахнет как гнилое мясо, но
-// выглядит как потерянная база на Деймосе.
-// Похоже, вы застряли в "Прибрежье Ада", и
-// единственный путь теперь - пройти его.
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜хнея┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜, я┐╜я┐╜
+// я┐╜ыглядия┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜яння┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
+// я┐╜я┐╜хожя┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜яли я┐╜ "я┐╜рибрежя┐╜ я┐╜я┐╜я┐╜", я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜твея┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ тепя┐╜я┐╜я┐╜ - я┐╜ройя┐╜ я┐╜я┐╜я┐╜.
 //
-// Чтобы продолжить погружение в игру,
-// пройдите эпизод прибрежье ада и его
-// замечательный сиквел "Инферно"!
+// я┐╜тобя┐╜ я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ужея┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜,
+// я┐╜ройя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜рибрежя┐╜ я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜теля┐╜я┐╜ сикя┐╜я┐╜я┐╜ "я┐╜я┐╜я┐╜рно"!
 
 #define E2TEXT_RUS \
 "e dfc gjkexbkjcm! e;fcysq kjhl-\n"\
@@ -1424,23 +1424,23 @@ PRESSYN_RUS
 "Ntgthm yfcnegftn dhtvz gjcktlytq ukfds\n"\
 "- ^byathyj^>"
 
-// У вас получилось! Ужасный Лорд-
-// Кибердемон, правящий потерянной 
-// деймосовской базой, был повержен 
-// и вы торжествуете! Но... Где вы? 
-// Подобравшись к краю спутника, вы
-// обращаете взор вниз, чтобы  
-// увидеть ужасную правду. 
+// я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜чиля┐╜я┐╜я┐╜! я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜-
+// я┐╜я┐╜я┐╜я┐╜рдея┐╜я┐╜я┐╜, я┐╜равя┐╜щий я┐╜я┐╜я┐╜я┐╜яння┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜совскоя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ржея┐╜ 
+// я┐╜ я┐╜я┐╜ я┐╜ржея┐╜я┐╜я┐╜я┐╜! я┐╜я┐╜... я┐╜я┐╜я┐╜ я┐╜я┐╜? 
+// я┐╜я┐╜я┐╜я┐╜я┐╜равя┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜тния┐╜я┐╜, я┐╜я┐╜
+// я┐╜я┐╜я┐╜щаея┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜, я┐╜тобя┐╜  
+// увия┐╜я┐╜я┐╜я┐╜ ужая┐╜я┐╜я┐╜ я┐╜равя┐╜я┐╜. 
 // 
-// Деймос плывёт над самим Адом! 
-// Вы никогда не слышали, чтобы кто-нибудь
-// сбегал из Ада, но вы заставите ублюдков
-// пожалеть о том, что они прослышали о вас.
-// Поспешно обвязавшись верёвкой, Вы 
-// спускаетесь на поверхность Ада.
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ самя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜! 
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜шаля┐╜, я┐╜тобя┐╜ я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜я┐╜
+// сбея┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜тавя┐╜я┐╜ ублюдкя┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ том, я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜шаля┐╜ я┐╜ я┐╜я┐╜я┐╜.
+// я┐╜я┐╜спешно я┐╜я┐╜я┐╜язая┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ёвкоя┐╜, я┐╜я┐╜ 
+// я┐╜я┐╜ская┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜хноя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜.
 //
-// Теперь наступает время последней главы 
-// - "Инферно". 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜упая┐╜я┐╜ я┐╜ремя┐╜ я┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// - "я┐╜я┐╜я┐╜рно". 
 
 #define E3TEXT_RUS \
 "jvthpbntkmysq gferjltvjy<\n"\
@@ -1461,23 +1461,23 @@ PRESSYN_RUS
 "jlyj gjhj;ltybt flf yt cvjukj ghjqnb \n"\
 "xthtp 'ne ldthm dvtcnt c dfvb>>>"
 
-// Омерзительный паукодемон,
-// руководивший вторжением на лунные
-// базы и принесший столь много
-// смертей, был окончательно повержен.
+// я┐╜я┐╜я┐╜рзителя┐╜я┐╜ я┐╜я┐╜укоя┐╜я┐╜я┐╜я┐╜я┐╜,
+// я┐╜укоя┐╜я┐╜я┐╜я┐╜я┐╜ший я┐╜я┐╜ржея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜уння┐╜
+// я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜риня┐╜я┐╜ший я┐╜толя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+// смея┐╜тей, я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜тельно я┐╜я┐╜я┐╜я┐╜ржея┐╜.
 //
-// Открывается секретная дверь и Вы
-// входите в нее. Вы доказали, что
-// слишком круты для ада, и поэтому
-// Ад, наконец, поступает справедливо -
-// Вы выходите из двери прямо на
-// зеленые поля Земли. Наконец-то дом.
+// я┐╜я┐╜я┐╜ывая┐╜я┐╜я┐╜я┐╜ секя┐╜тная┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜
+// я┐╜ходя┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜. я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜
+// слишкоя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜, я┐╜ я┐╜я┐╜я┐╜томя┐╜
+// я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜упая┐╜я┐╜ я┐╜равя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ -
+// я┐╜я┐╜ я┐╜я┐╜ходя┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ямо я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜-я┐╜ я┐╜я┐╜я┐╜.
 //
-// Вы спрашиваете себя: что происходило
-// на Земле, пока вы сражались с
-// высвободившимся злом? Хорошо, что ни
-// одно порождение Ада не смогло пройти
-// через эту дверь вместе с Вами...
+// я┐╜я┐╜ я┐╜я┐╜шивя┐╜я┐╜я┐╜ себя┐╜: я┐╜я┐╜ я┐╜роия┐╜ходя┐╜я┐╜я┐╜
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜ражя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜
+// я┐╜я┐╜своя┐╜я┐╜я┐╜я┐╜я┐╜шимя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜? я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜рожя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜ смоя┐╜я┐╜я┐╜ я┐╜ройя┐╜
+// я┐╜рез я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜...
 
 #define E4TEXT_RUS \
 "gfer-ghtldjlbntkm< ljk;yj ,snm< gjckfk\n"\
@@ -1498,23 +1498,23 @@ PRESSYN_RUS
 "\n"\
 "cktle.ofz jcnfyjdrf - fl yf ptvkt!"
 
-// Паук-предводитель, должно быть, послал 
-// вперёд свои легионы порождений Ада перед
-// Вашим последним сражением с этим 
-// ужасным отродьем. Но Вы пошли до конца 
-// и сразили вечным проклятьем и страданием 
-// эту орду так, как поступил бы настоящий 
-// герой перед лицом смертельной опасносности.
+// я┐╜я┐╜я┐╜-я┐╜редя┐╜я┐╜я┐╜я┐╜теля┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜слая┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜ своя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜рожя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜ред
+// я┐╜я┐╜шим я┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜ я┐╜ражя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜тим 
+// ужая┐╜я┐╜ я┐╜я┐╜родьем. я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜шли я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜ я┐╜разя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜рокя┐╜я┐╜я┐╜ьем я┐╜ я┐╜я┐╜радя┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ так, я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜упия┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜щий 
+// я┐╜я┐╜рой я┐╜я┐╜ред я┐╜я┐╜цом смея┐╜тельноя┐╜ я┐╜я┐╜я┐╜сносноя┐╜я┐╜.
 //
-// Кроме того, кто-то должен был заплатить 
-// за то, что случилось с Дэйзи, вашей
-// домашней крольчихой. 
+// я┐╜ромя┐╜ тогя┐╜, я┐╜я┐╜-я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜ я┐╜, я┐╜я┐╜ я┐╜я┐╜чиля┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜, я┐╜я┐╜шей
+// я┐╜я┐╜я┐╜я┐╜шнея┐╜ я┐╜роля┐╜я┐╜хой. 
 // 
-// Теперь Вы видите, сколь много боли и
-// крови Вам пророчат полчища демонов, 
-// неиствующих в наших городах.
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜, скоя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜
+// я┐╜ровя┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜родя┐╜я┐╜.
 //
-// Следующая остановка - Ад на земле!
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜таня┐╜я┐╜я┐╜я┐╜ - я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜!
 
 #define E5TEXT_RUS \
 "gsnfzcm pfnjxbnm dfc d fl< ,fajvtn kbim\n" \
@@ -1528,18 +1528,18 @@ PRESSYN_RUS
 "jnhjlmtv ltvjybxtcrb[ cbk< gjckfyysv\n" \
 "yf ptvk.>\n\nybrjulf yt clfdfqntcm> hdbnt b vtxbnt!"
 
-// Пытаясь заточить вас в Ад, Бафомет лишь
-// покорно исполнял волю Сатаны, своего
-// господина. И полным крахом обернулись
-// их замыслы за столь роковую ошибку.
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜, я┐╜я┐╜фомя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜рно я┐╜споя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜таня┐╜, своя┐╜я┐╜я┐╜
+// я┐╜я┐╜споя┐╜я┐╜я┐╜я┐╜. я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜хом я┐╜я┐╜я┐╜я┐╜улия┐╜я┐╜
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜толя┐╜ рокя┐╜я┐╜я┐╜я┐╜ я┐╜шибя┐╜я┐╜.
 //
-// Истребив порождения Ада в чертогах
-// преисподнии, вы исполнены решимостью
-// сразиться с более могущественным
-// отродьем демонических сил, посланным
-// на Землю.
+// я┐╜я┐╜я┐╜ребя┐╜я┐╜ я┐╜я┐╜рожя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜тогя┐╜я┐╜
+// я┐╜реиспоя┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜споя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜шимя┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜разя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜твея┐╜я┐╜я┐╜
+// я┐╜я┐╜родьем я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ския┐╜ сил, я┐╜я┐╜слая┐╜я┐╜я┐╜
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜.
 //
-// Никогда не сдавайтесь. Рвите и мечите!
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ сдая┐╜я┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜!
 
 // after level 6, put this:
 
@@ -1557,18 +1557,18 @@ PRESSYN_RUS
 "dsrk.xfntkm< lth;fobq yfctktybt ptvkb\n" \
 "d pfkj;ybrf[>"
 
-// Вы прошли вглубь поражённого космопорта,
-// но что-то здесь неправильно. Монстры
-// принесли с собой собственную реальность,
-// и технология космопорта 
-// трансформируется от их присутствия.
+// я┐╜я┐╜ я┐╜я┐╜шли я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ражённоя┐╜я┐╜ я┐╜я┐╜смоя┐╜я┐╜я┐╜я┐╜,
+// я┐╜я┐╜ я┐╜я┐╜-я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜равя┐╜я┐╜ьно. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜риня┐╜сли я┐╜ собя┐╜я┐╜ собя┐╜твея┐╜я┐╜я┐╜я┐╜ реая┐╜ьноя┐╜я┐╜я┐╜,
+// я┐╜ я┐╜хноя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜смоя┐╜я┐╜я┐╜я┐╜ 
+// я┐╜раня┐╜я┐╜рмия┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜твия┐╜.
 //
-// Впереди Вы видите аванпост Ада.
-// Если Вам удастся пробраться через него,
-// Вы сможете проникнуть в населённый 
-// демонами центр базы и найти управляющий 
-// выключатель, держащий население Земли 
-// в заложниках.
+// я┐╜я┐╜я┐╜редя┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜.
+// я┐╜сли я┐╜я┐╜я┐╜ удая┐╜я┐╜я┐╜я┐╜ я┐╜робя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜рез я┐╜я┐╜я┐╜я┐╜,
+// я┐╜я┐╜ смоя┐╜я┐╜я┐╜ я┐╜роня┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜селя┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ ценя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜равя┐╜я┐╜я┐╜щий 
+// я┐╜ыкля┐╜я┐╜теля┐╜, я┐╜я┐╜ржащий я┐╜я┐╜селя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
 
 // After level 11, put this:
 
@@ -1591,23 +1591,23 @@ PRESSYN_RUS
 "ytlfktrj jn rjcvjgjhnf> vtlktyyj b\n"\
 "vexbntkmyj ds djpdhfoftntcm d ,jq>\n"\
 
-// Вы победили! Ваша победа позволила 
-// человечеству эвакуироваться с Земли
-// и спастись от кошмара. Теперь Вы - 
-// единственный человек, оставшийся на 
-// планете, и людоеды-мутанты, хищные 
-// инопланетяне и злые духи - Ваши
-// единственные соседи. Удовлетворённый 
-// спасением своего вида, Вы спокойно
-// дожидаетесь неминуемой гибели.
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜! я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// челя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜ спая┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜шмая┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ - 
+// я┐╜я┐╜я┐╜я┐╜я┐╜твея┐╜я┐╜я┐╜ челя┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜тавшийя┐╜я┐╜ я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜ я┐╜юдоя┐╜я┐╜я┐╜-я┐╜я┐╜таня┐╜я┐╜, я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜яне я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ - я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜твея┐╜я┐╜я┐╜ я┐╜седя┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜твоя┐╜я┐╜я┐╜ 
+// спасеня┐╜я┐╜я┐╜ своя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ споя┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜уемя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
 //
-// Но вскоре руководство Земли передаёт
-// сообщение с орбиты: "Сенсоры обнаружили
-// источник инопланетного вторжения. Ваша
-// задача - ликвидировать его". Инопланетная 
-// база находится в центре Вашего города, 
-// недалеко от космопорта. Медленно и 
-// мучительно вы возрвращаетесь в бой.
+// я┐╜я┐╜ я┐╜скоя┐╜ я┐╜укоя┐╜я┐╜я┐╜я┐╜тво я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜редя┐╜я┐╜я┐╜
+// сооя┐╜щеня┐╜я┐╜ я┐╜ я┐╜рбия┐╜я┐╜: "я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ужия┐╜я┐╜
+// я┐╜я┐╜я┐╜чния┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тноя┐╜я┐╜ я┐╜я┐╜ржея┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜ - я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜". я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тная┐╜ 
+// я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ходя┐╜я┐╜я┐╜я┐╜ я┐╜ ценя┐╜я┐╜ я┐╜я┐╜шегя┐╜ я┐╜я┐╜родя┐╜, 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜смоя┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ 
+// я┐╜я┐╜я┐╜тельно я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜щаея┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜.
 
 // After level 20, put this:
 
@@ -1623,16 +1623,16 @@ PRESSYN_RUS
 "njuj< xnj ghbltncz ghjqnb xthtp fl< xnj,s\n"\
 "lj,hfnmcz lj 'njuj gjhnfkf?"
 
-// Вы находитесь в разлагающемся сердце
-// города, в окружении трупов своих врагов. 
-// Вы не видите никакого способа уничтожить
-// портал на этой стороне, и поэтому, стиснув 
-// зубы, проходите сквозь него. 
+// я┐╜я┐╜ я┐╜я┐╜ходя┐╜я┐╜я┐╜я┐╜ я┐╜ разя┐╜я┐╜я┐╜я┐╜я┐╜щемя┐╜я┐╜ я┐╜я┐╜я┐╜
+// я┐╜я┐╜родя┐╜, я┐╜ я┐╜я┐╜я┐╜ужея┐╜я┐╜я┐╜ я┐╜я┐╜упоя┐╜ своя┐╜я┐╜ я┐╜рагя┐╜я┐╜. 
+// я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ способя┐╜ уния┐╜тожя┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜тал я┐╜я┐╜ я┐╜той я┐╜я┐╜роня┐╜, я┐╜ я┐╜я┐╜я┐╜томя┐╜, я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜, я┐╜я┐╜ходя┐╜я┐╜ сквя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜. 
 
-// Должен быть способ закрыть портал 
-// на другой стороне. И какое Вам дело до
-// того, что придётся пройти через Ад, чтобы
-// добраться до этого портала?
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ способ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜тал 
+// я┐╜я┐╜ я┐╜я┐╜угоя┐╜ я┐╜я┐╜роня┐╜. я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜
+// тогя┐╜, я┐╜я┐╜ я┐╜ридя┐╜я┐╜я┐╜я┐╜ я┐╜ройя┐╜ я┐╜рез я┐╜я┐╜, я┐╜тобя┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜тогя┐╜ я┐╜я┐╜я┐╜таля┐╜?
 
 // After level 29, put this:
 
@@ -1654,22 +1654,22 @@ PRESSYN_RUS
 "ljk;yj ,snm ujhfplj ,jktt bynthtcysv\n"\
 "pfyznbtv< yt;tkb tt hfpheitybt>"
 
-// Жутчайший лик самого большого демона,
-// которого Вы когда-либо видели, рушится
-// на Ваших глазах после того, как Вы 
-// накачали ракетами его незащищенный
-// мозг. Монстр угасает и гибнет, 
-// разрушая бесчисленные мили поверхности 
-// Ада.
+// я┐╜я┐╜я┐╜чайший я┐╜я┐╜я┐╜ самя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜шогя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜,
+// я┐╜я┐╜я┐╜рогя┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜сле тогя┐╜, я┐╜я┐╜я┐╜ я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜чаля┐╜ ракя┐╜тамя┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜щеня┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ угасаея┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, 
+// разя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜слея┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜хноя┐╜я┐╜ 
+// я┐╜я┐╜я┐╜.
 //
-// Вы сделали это. Вторжению конец. Земля 
-// спасена. Ад повержен. Вы спрашиваете 
-// себя: куда теперь после смерти будут
-// попадать плохие люди? Утерев пот 
-// со лба, Вы начинаете долгое путешествие
-// обратно домой. Восстановление Земли 
-// должно быть гораздо более интересным
-// занятием, нежели её разрушение. 
+// я┐╜я┐╜ сдея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜. я┐╜я┐╜ржея┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// спасеня┐╜. я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ржея┐╜. я┐╜я┐╜ я┐╜я┐╜шивя┐╜я┐╜я┐╜ 
+// себя┐╜: я┐╜уда тепя┐╜я┐╜я┐╜ я┐╜я┐╜сле смея┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜хие я┐╜юди? я┐╜я┐╜рев я┐╜я┐╜я┐╜ 
+// я┐╜ я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜чиня┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜твия┐╜
+// я┐╜я┐╜я┐╜тно я┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜таня┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜разя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜тиея┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ разя┐╜я┐╜шеня┐╜я┐╜. 
 
 // Before level 31, put this:
 
@@ -1679,10 +1679,10 @@ PRESSYN_RUS
 "ltvjyfvb> k.,jgsnyj< rnj ;t yfctkztn\n"\
 "'njn eujkjr flf?\n"\
 
-// Поздравляем, вы нашли секретный уровень! 
-// Похоже, он был построен людьми, 
-// а не демонами. Любопытно, кто же населяет
-// этот уголок Ада?
+// я┐╜я┐╜я┐╜я┐╜равя┐╜яем, я┐╜я┐╜ я┐╜я┐╜шли секя┐╜я┐╜я┐╜ я┐╜ровя┐╜я┐╜я┐╜! 
+// я┐╜я┐╜хожя┐╜, я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜роея┐╜ я┐╜я┐╜ьми, 
+// я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜юбоя┐╜я┐╜тно, я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜селя┐╜я┐╜
+// я┐╜я┐╜я┐╜ угоя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜?
 
 // Before level 32, put this:
 
@@ -1691,9 +1691,9 @@ PRESSYN_RUS
 "ehjdtym! kexit ,s dfv cnhtvbntkmyj\n"\
 "ghjhdfnmcz crdjpm ytuj!"
 
-// Поздравляем, вы нашли сверхсекретный 
-// уровень! Лучше бы вам стремительно
-// прорваться сквозь него!
+// я┐╜я┐╜я┐╜я┐╜равя┐╜яем, я┐╜я┐╜ я┐╜я┐╜шли свея┐╜я┐╜секя┐╜я┐╜я┐╜ 
+// я┐╜ровя┐╜я┐╜я┐╜! я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜ремя┐╜тельно
+// я┐╜я┐╜рвая┐╜я┐╜я┐╜я┐╜ сквя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜!
 
 // after map 06	
 
@@ -1712,19 +1712,19 @@ PRESSYN_RUS
 "chf;fnmcz< ghjljk;fqnt e,bdfnm>\n"\
 "b lf< ghjljk;fqnt ds;bdfnm>"
 
-// Вы со злорадством смотрите на горящий 
-// каркас Стража. С его смертью вы вырвали
-// Ускоритель из зловонных когтей Ада.
-// Расслабившись, Вы окидываете взглядом
-// помещение. Проклятье! Тут должен быть
-// хотя бы один рабочий прототип, но 
-// демоны, должно быть, забрали его с собой.
+// я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜радя┐╜твоя┐╜ смоя┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜щий 
+// я┐╜я┐╜ркая┐╜ я┐╜я┐╜ражя┐╜. я┐╜ я┐╜я┐╜я┐╜ смея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜рвая┐╜я┐╜
+// я┐╜скоя┐╜теля┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜тей я┐╜я┐╜я┐╜.
+// я┐╜я┐╜я┐╜слая┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ывая┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ядоя┐╜
+// я┐╜я┐╜я┐╜я┐╜щеня┐╜я┐╜. я┐╜рокя┐╜я┐╜я┐╜я┐╜! я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ рабя┐╜чий я┐╜я┐╜я┐╜тип, я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜раля┐╜ я┐╜я┐╜я┐╜ я┐╜ собя┐╜я┐╜.
 //
-// Вы должны найти прототип, иначе все Ваши
-// прошлые усилия окажутся напрасными.
-// Продолжайте двигаться, продолжайте
-// сражаться, продолжайте убивать. И да,
-// продолжайте выживать.
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜тип, я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜ я┐╜силя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ыми.
+// я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜ражя┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ убия┐╜я┐╜я┐╜я┐╜. я┐╜ я┐╜я┐╜,
+// я┐╜родя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ыжия┐╜я┐╜я┐╜я┐╜.
 
 // after map 11
 
@@ -1736,12 +1736,12 @@ PRESSYN_RUS
 "\n"\
 "eybxnj;tybt - dfif cgtwbfkmyjcnm>"
 
-// Даже смертельный лабиринт арчвайлов не
-// смог остановить Вас. Вы добрались до
-// прототипа Ускорителя, который вскоре
-// был уничтожен раз и навсегда.
+// я┐╜я┐╜я┐╜я┐╜ смея┐╜теля┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜риня┐╜ я┐╜я┐╜чвая┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜
+// смоя┐╜ я┐╜я┐╜таня┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜. я┐╜я┐╜ я┐╜я┐╜я┐╜раля┐╜я┐╜я┐╜ я┐╜я┐╜
+// я┐╜я┐╜я┐╜типя┐╜ я┐╜скоя┐╜теля┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜скоя┐╜
+// я┐╜я┐╜ уния┐╜тожя┐╜я┐╜ раз я┐╜ я┐╜я┐╜я┐╜сегя┐╜я┐╜.
 //
-// Уничтожение - Ваша специальность.
+// я┐╜я┐╜я┐╜я┐╜тожя┐╜я┐╜я┐╜я┐╜ - я┐╜я┐╜я┐╜ специая┐╜ьноя┐╜я┐╜я┐╜.
 
 // after map 20
 
@@ -1760,19 +1760,19 @@ PRESSYN_RUS
 "e,k.lre ytvyjuj flf dfituj\n"\
 "cj,cndtyyjuj bpujnjdktybz!"
 
-// Вы пробили и проколотили свой путь в
-// сердце дьявольского улья. Настало время 
-// для миссии "найти и уничтожить", 
-// объектом которой станет Привратник, 
-// чьи нечистивые отпрыски низвергаются 
-// на Землю. 
+// я┐╜я┐╜ я┐╜робя┐╜я┐╜я┐╜ я┐╜ я┐╜рокя┐╜я┐╜я┐╜тиля┐╜ своя┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜
+// я┐╜я┐╜я┐╜ я┐╜я┐╜явоя┐╜я┐╜скоя┐╜я┐╜ я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜таля┐╜ я┐╜ремя┐╜ 
+// я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜сии "я┐╜я┐╜я┐╜я┐╜ я┐╜ уния┐╜тожя┐╜я┐╜я┐╜", 
+// я┐╜я┐╜ъектом я┐╜я┐╜я┐╜рой я┐╜таня┐╜я┐╜ я┐╜ривя┐╜тния┐╜, 
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜тивя┐╜ я┐╜я┐╜я┐╜я┐╜ски я┐╜я┐╜я┐╜я┐╜я┐╜ргая┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜. 
 //
-// Да, он плохой. Но Вы знаете кто ещё хуже!
+// я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜хой. я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜уже!
 //
-// Злобно ухмыляясь, Вы проверяете своё 
-// снаряжение, и готовитесь преподать 
-// ублюдку немного Ада Вашего 
-// собственного изготовления!
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜ровя┐╜я┐╜я┐╜я┐╜ своя┐╜ 
+// сная┐╜яжея┐╜я┐╜я┐╜, я┐╜ я┐╜я┐╜товя┐╜я┐╜я┐╜я┐╜ я┐╜репя┐╜я┐╜я┐╜я┐╜я┐╜ 
+// ублюдкя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜шегя┐╜ 
+// собя┐╜твея┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜товя┐╜я┐╜я┐╜я┐╜я┐╜!
 
 // after map 30
 
@@ -1792,20 +1792,20 @@ PRESSYN_RUS
 "ds gjgfltnt d fl< jyf gjyflj,bncz\n"\
 "lkz yt,jkmijq gjcktlytq pfxbcnrb>>>"
 
-// После уничтожения лика Привратника
-// начинают формироваться инвертированные 
-// Врата, которые затягивают в себя 
-// последние обломки Ускорителя и 
-// нескольких оставшихся демонов.
+// я┐╜я┐╜сле уния┐╜тожя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜ривя┐╜тния┐╜я┐╜
+// я┐╜я┐╜чиня┐╜я┐╜я┐╜ я┐╜рмировя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ровя┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ягия┐╜я┐╜я┐╜я┐╜ я┐╜ себя┐╜ 
+// я┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜скоя┐╜теля┐╜ я┐╜ 
+// я┐╜я┐╜скоя┐╜ькия┐╜ я┐╜я┐╜тавя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
 //
-// Готово. Ад вернулся на круги своя,
-// поглащая лишь грешных людей, нежели 
-// праведных.
+// я┐╜я┐╜товя┐╜. я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜уги своя┐╜,
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜юдея┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜равя┐╜я┐╜я┐╜я┐╜я┐╜.
 //
-// Не забудьте попросить внуков положить
-// ракетницу в Ваш гроб. Если после смерти
-// Вы попадёте в Ад, она понадобится
-// для небольшой последней зачистки...
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜укоя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+// ракя┐╜тния┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜ я┐╜роб. я┐╜сли я┐╜я┐╜сле смея┐╜я┐╜
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜, я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜шой я┐╜я┐╜слея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜тки...
 
 // before map 31
 
@@ -1819,14 +1819,14 @@ PRESSYN_RUS
 "ehjdtym hfccxbnfy bcrk.xbntkmyj yf\n"\
 "ghjatccbjyfkjd>"
 
-// Вы нашли второй по сложности уровень,
-// который у нас есть. Надеемся, Вы 
-// сохранили игру на предыдущем уровне 
-// или ещё раньше. Если нет, приготовьтесь 
-// много умирать.
+// я┐╜я┐╜ я┐╜я┐╜шли я┐╜я┐╜рой я┐╜я┐╜ слоя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ровя┐╜я┐╜я┐╜,
+// я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ 
+// я┐╜я┐╜раня┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜редя┐╜я┐╜щем я┐╜ровя┐╜я┐╜ 
+// я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ раня┐╜я┐╜. я┐╜сли я┐╜я┐╜я┐╜, я┐╜ригя┐╜товя┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜ умия┐╜я┐╜я┐╜.
 //
-// Уровень раcсчитан исключительно на 
-// профессионалов.
+// я┐╜ровя┐╜я┐╜я┐╜ я┐╜cя┐╜я┐╜тан я┐╜скля┐╜я┐╜тельно я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜сиоя┐╜я┐╜я┐╜я┐╜я┐╜.
 
 // before map 32
 
@@ -1835,9 +1835,9 @@ PRESSYN_RUS
 "cfvsq ckj;ysq? ntgthm ds pyftnt>\n"\
 "ybrnj yt ds,thtncz ;bdsv>"
 
-// Спорим, вы удивлялись, какой же уровень
-// САМЫЙ сложный? Теперь Вы знаете.
-// Никто не выберется живым.
+// я┐╜я┐╜я┐╜рим, я┐╜я┐╜ удия┐╜я┐╜ялия┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜ровя┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜ слоя┐╜я┐╜я┐╜? я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜.
+// я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜ыбея┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜.
 
 // after map 06	
 
@@ -1855,18 +1855,18 @@ PRESSYN_RUS
 "tckb gjdtptn< d rjvgktrct dct tot\n"\
 "ljk;ys jcnfdfnmcz ,jtghbgfcs>"
 
-// Сражаясь, Вы выбрались из заражённых
-// эксперементальных лабораторий.
-// Похоже, ОАК растранжирила и их, несмотря
-// на огромные корпоративные доходы. Они
-// даже не позаботились о покупке страховок
-// для своих сотрудников...
+// я┐╜ражя┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜раля┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜ражя┐╜я┐╜я┐╜
+// я┐╜сперемя┐╜я┐╜таля┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜рий.
+// я┐╜я┐╜хожя┐╜, я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜раня┐╜я┐╜риля┐╜ я┐╜ я┐╜я┐╜, я┐╜я┐╜смоя┐╜я┐╜я┐╜
+// я┐╜я┐╜ я┐╜я┐╜ромя┐╜я┐╜ я┐╜я┐╜рпоя┐╜тивя┐╜я┐╜ я┐╜я┐╜ходя┐╜. я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тиля┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜упкя┐╜ я┐╜я┐╜я┐╜ховя┐╜я┐╜
+// я┐╜я┐╜я┐╜ своя┐╜я┐╜ я┐╜я┐╜я┐╜удня┐╜я┐╜я┐╜я┐╜...
 //
-// Впереди расположен военный комплекс, 
-// кишащий вирусами и только ждущий 
-// как бы вгрызться в Вашу плоть. Что ж,
-// если повезёт, в комплексе всё ещё 
-// должны оставаться боеприпасы.
+// я┐╜я┐╜я┐╜редя┐╜ я┐╜споя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, 
+// я┐╜я┐╜я┐╜щий я┐╜я┐╜я┐╜я┐╜самя┐╜ я┐╜ только я┐╜я┐╜я┐╜щий 
+// я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜ я┐╜,
+// я┐╜сли я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜тавя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜рипя┐╜я┐╜я┐╜.
 
 // after map 11
 
@@ -1884,17 +1884,17 @@ PRESSYN_RUS
 "\n"\
 "ds nfr ghjcnj yt clflbntcm>"
 
-// Впереди слышен металлический скрежет 
-// тяжёлых механизмов. Вы уверены, что они
-// не штампуют очередную партию 
-// дьявольских отродий, но даже если
-// и так, Вы к этому готовы. 
-// Эти звуки могут означать очередной 
-// кровавый фестиваль, но вы-то уже знаете, 
-// какого это ощущать тысячи головорезов, 
-// собранных в одном безумном убийце.
+// я┐╜я┐╜я┐╜редя┐╜ я┐╜я┐╜шен я┐╜я┐╜таля┐╜я┐╜я┐╜ския┐╜ я┐╜режя┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ханя┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜ увереня┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜
+// я┐╜я┐╜ я┐╜тамя┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜редя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜явоя┐╜я┐╜ския┐╜ я┐╜я┐╜родя┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜сли
+// я┐╜ так, я┐╜я┐╜ я┐╜ я┐╜томя┐╜ я┐╜я┐╜товя┐╜. 
+// я┐╜я┐╜ я┐╜я┐╜уки я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜редя┐╜я┐╜я┐╜ 
+// я┐╜ровя┐╜я┐╜я┐╜ я┐╜я┐╜тивя┐╜я┐╜я┐╜, я┐╜я┐╜ я┐╜я┐╜-я┐╜ уже я┐╜я┐╜я┐╜я┐╜я┐╜, 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜резя┐╜я┐╜, 
+// собраня┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜умня┐╜я┐╜ убия┐╜я┐╜.
 //
-// Вы так просто не сдадитесь.
+// я┐╜я┐╜ так я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ сдая┐╜я┐╜я┐╜я┐╜я┐╜.
 
 #define T3TEXT_RUS \
 "jnrhsdf.ofzcz gthcgtrnbdf dsukzlbn\n"\
@@ -1910,18 +1910,18 @@ PRESSYN_RUS
 "e[vskztntcm> yfcnfkj dhtvz dcthmtp\n"\
 "yflhfnm rjt-rjve pflybwe>"
 
-// Открывающаяся перспектива выглядит 
-// чертовски знакомой и пахнет 
-// словно зажаренные экскременты. 
-// Это место не нравилось вам раньше, 
-// и Вы чертовски уверены, что не 
-// понравится и сейчас. Чем больше Вы 
-// размышляете над этим, тем печальнее 
-// всё становится.
+// я┐╜я┐╜я┐╜ывая┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜спея┐╜тивя┐╜ я┐╜ыглядия┐╜ 
+// я┐╜я┐╜товски я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜хнея┐╜ 
+// слоя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜реня┐╜я┐╜ я┐╜я┐╜ремя┐╜я┐╜я┐╜я┐╜. 
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜равя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ раня┐╜я┐╜, 
+// я┐╜ я┐╜я┐╜ я┐╜я┐╜товски увереня┐╜, я┐╜я┐╜ я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜равя┐╜я┐╜я┐╜я┐╜ я┐╜ сейя┐╜я┐╜. я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ 
+// разя┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜тим, тем я┐╜я┐╜чальнея┐╜ 
+// я┐╜я┐╜я┐╜ я┐╜таня┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
 // 
-// Взвесив своё оружие, Вы зловеще 
-// ухмыляетесь. Настало время всерьез 
-// надрать кое-кому задницу.
+// я┐╜я┐╜я┐╜я┐╜сив своя┐╜ я┐╜я┐╜ужия┐╜, я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜таля┐╜ я┐╜ремя┐╜ я┐╜я┐╜я┐╜ьез 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
 
 #define T4TEXT_RUS \
 "dytpfgyj dct jrenfkjcm nbibyjq lj\n"\
@@ -1936,17 +1936,17 @@ PRESSYN_RUS
 "ltvjyjd yfxbyftn ghj,bdfnmcz zhrjt\n"\
 "cbytt cdtxtybt>"
 
-// Внезапно всё окуталось тишиной до
-// самого горизона. Агонизирующее Адское
-// эхо стихло, кошмарное небо стало вновь
-// голубым, трупы монстров начали 
-// разлагаться со зловонным смрадом.
-// Боже, неужели Вы и правда победили?
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜таля┐╜я┐╜я┐╜ я┐╜шиня┐╜я┐╜ я┐╜я┐╜
+// самя┐╜я┐╜я┐╜ я┐╜я┐╜ризя┐╜я┐╜я┐╜. я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜щее я┐╜я┐╜скоя┐╜
+// я┐╜я┐╜ я┐╜я┐╜хло, я┐╜я┐╜шмарноя┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜таля┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ров я┐╜я┐╜чаля┐╜ 
+// разя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜радя┐╜я┐╜.
+// я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ужея┐╜я┐╜ я┐╜я┐╜ я┐╜ я┐╜равя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜?
 //
-// После короткого землетрясения, из
-// разгромленного черепа Изрыгателя 
-// Демонов начинает пробиваться яркое
-// синее свечение.
+// я┐╜я┐╜сле я┐╜я┐╜я┐╜ткоя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜сеня┐╜я┐╜, я┐╜я┐╜
+// разя┐╜ромя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜репя┐╜ я┐╜я┐╜я┐╜ыгателя┐╜ 
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜чиня┐╜я┐╜я┐╜ я┐╜робя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ркоя┐╜
+// синя┐╜я┐╜ свеченя┐╜я┐╜.
 
 #define T5TEXT_RUS \
 "b xnj ntgthm? dct dsukzlbn cjdthityyj\n"\
@@ -1958,14 +1958,14 @@ PRESSYN_RUS
 "bkb vj;tn kexit yt nhtdj;bnm\n"\
 "cgzob[ ,jujd>>>"
 
-// И что теперь? Всё выглядит совершенно
-// по-другому, словно покои владыки
-// Тутанхамона.
+// я┐╜ я┐╜я┐╜ тепя┐╜я┐╜я┐╜? я┐╜я┐╜я┐╜ я┐╜ыглядия┐╜ совя┐╜я┐╜шеня┐╜я┐╜
+// я┐╜я┐╜-я┐╜я┐╜угоя┐╜я┐╜, слоя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ыки
+// я┐╜я┐╜танхамя┐╜я┐╜я┐╜.
 //
-// Что ж, что бы не ожидало Вас внутри,
-// хуже уже быть не может, не так ли?
-// Или может лучше не тревожить 
-// спящих богов...
+// я┐╜я┐╜ я┐╜, я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜,
+// я┐╜уже уже я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜ так я┐╜я┐╜?
+// я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜ я┐╜ревя┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜...
 
 #define T6TEXT_RUS \
 "ghbikj dhtvz lkz jngecrf> tq-,jue<\n"\
@@ -1982,47 +1982,39 @@ PRESSYN_RUS
 "ds cksibnt njgjn ;tktpyjuj rjgsnf\n"\
 "rb,thltvjyf>"
 
-// Пришло время для отпуска. Ей-богу, 
-// вороша недра Ада, Вы только о нем
-// и мечтали! Пусть кто-нибудь другой 
-// теперь борется с полчищами демонов.
+// я┐╜я┐╜шло я┐╜ремя┐╜ я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜ска. я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜, 
+// я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜, я┐╜я┐╜ только я┐╜ я┐╜я┐╜я┐╜
+// я┐╜ я┐╜я┐╜я┐╜таля┐╜! я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜-я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜угоя┐╜ 
+// тепя┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ я┐╜я┐╜я┐╜я┐╜щамя┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜.
 //
-// Впереди располагается тихий городок с
-// неспешно текущей водой, причудливыми
-// домиками, и, вероятно, не населенный
-// адским отродьем.
+// я┐╜я┐╜я┐╜редя┐╜ я┐╜споя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜хий я┐╜я┐╜родя┐╜я┐╜ я┐╜
+// я┐╜я┐╜спешно текя┐╜щей я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜я┐╜я┐╜удля┐╜я┐╜ыми
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜, я┐╜, я┐╜я┐╜я┐╜я┐╜тно, я┐╜я┐╜ я┐╜я┐╜селя┐╜я┐╜я┐╜я┐╜
+// я┐╜я┐╜ския┐╜ я┐╜я┐╜родьем.
 //
-// Покинув транспортное средство,
-// Вы слышите топот железного копыта 
-// кибердемона.
+// я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜ранспоя┐╜тноя┐╜ я┐╜редя┐╜тво,
+// я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜ топя┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜ 
+// я┐╜я┐╜я┐╜я┐╜рдея┐╜я┐╜я┐╜я┐╜.
 
 
 //
 // F_FINALE.C
 //
 
-#define CC_ZOMBIE_RUS   "pjv,b"                 // Зомби
-#define CC_SHOTGUN_RUS  "pjv,b-cth;fyn"         // Зомби-сержант
-#define CC_HEAVY_RUS    "gektvtnxbr"            // Пулемётчик
-#define CC_IMP_RUS      ",tc"                   // Бес
-#define CC_DEMON_RUS    "ltvjy"                 // Демон
-#define CC_LOST_RUS     "gjnthzyyfz leif"       // Потерянная душа
-#define CC_CACO_RUS     "rfrjltvjy"             // Какодемон
-#define CC_HELL_RUS     "hswfhm flf"            // Рыцарь ада
-#define CC_BARON_RUS    ",fhjy flf"             // Барон ада
-#define CC_ARACH_RUS    "fhf[yjnhjy"            // Арахнотрон
-#define CC_PAIN_RUS     "'ktvtynfkm ,jkb"       // Элементаль боли
-#define CC_REVEN_RUS    "htdtyfyn"              // Ревенант
-#define CC_MANCU_RUS    "vfyre,ec"              // Манкубус
-#define CC_ARCH_RUS     "fhxdfqk"               // Арчвайл
-#define CC_SPIDER_RUS   "gfer-ghtldjlbntkm"     // Паук-предводитель
-#define CC_CYBER_RUS    "rb,thltvjy"            // Кибердемон
-#define CC_HERO_RUS     "yfi uthjq"             // Наш Герой
-
-
-//
-// Отображение версии проекта
-//
-
-#define STSTR_VERSION       "VERSION 1.9 (YYYY-MM-DD)"
-#define STSTR_VERSION_RUS   "DTHCBZ 1>9 (UUUU-VV-LL)"
+#define CC_ZOMBIE_RUS   "pjv,b"                 // я┐╜я┐╜я┐╜я┐╜я┐╜
+#define CC_SHOTGUN_RUS  "pjv,b-cth;fyn"         // я┐╜я┐╜я┐╜я┐╜я┐╜-я┐╜ржая┐╜я┐╜
+#define CC_HEAVY_RUS    "gektvtnxbr"            // я┐╜улея┐╜я┐╜я┐╜чик
+#define CC_IMP_RUS      ",tc"                   // я┐╜я┐╜я┐╜
+#define CC_DEMON_RUS    "ltvjy"                 // я┐╜я┐╜я┐╜я┐╜я┐╜
+#define CC_LOST_RUS     "gjnthzyyfz leif"       // я┐╜я┐╜я┐╜я┐╜яння┐╜я┐╜ я┐╜я┐╜я┐╜
+#define CC_CACO_RUS     "rfrjltvjy"             // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define CC_HELL_RUS     "hswfhm flf"            // я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜
+#define CC_BARON_RUS    ",fhjy flf"             // я┐╜я┐╜рон я┐╜я┐╜я┐╜
+#define CC_ARACH_RUS    "fhf[yjnhjy"            // я┐╜я┐╜хноя┐╜рон
+#define CC_PAIN_RUS     "'ktvtynfkm ,jkb"       // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜таля┐╜ я┐╜я┐╜я┐╜я┐╜
+#define CC_REVEN_RUS    "htdtyfyn"              // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define CC_MANCU_RUS    "vfyre,ec"              // я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+#define CC_ARCH_RUS     "fhxdfqk"               // я┐╜я┐╜чвая┐╜я┐╜
+#define CC_SPIDER_RUS   "gfer-ghtldjlbntkm"     // я┐╜я┐╜я┐╜-я┐╜редя┐╜я┐╜я┐╜я┐╜теля┐╜
+#define CC_CYBER_RUS    "rb,thltvjy"            // я┐╜я┐╜я┐╜я┐╜рдея┐╜я┐╜я┐╜
+#define CC_HERO_RUS     "yfi uthjq"             // я┐╜я┐╜я┐╜ я┐╜я┐╜рой

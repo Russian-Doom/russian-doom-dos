@@ -86,6 +86,10 @@ target_link_libraries(rusdoom PRIVATE
     audio_lib
 )
 
+target_include_directories(rusdoom PRIVATE
+    "${PROJECT_BINARY_DIR}"
+)
+
 set_target_properties(rusdoom PROPERTIES
     C_STANDARD 99
     C_STANDARD_REQUIRED ON
