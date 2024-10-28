@@ -22,6 +22,7 @@
 #include <ctype.h>
 #include <sys/types.h>
 #include <string.h>
+#include <strings.h>
 #include <unistd.h>
 #include <malloc.h>
 #include <fcntl.h>
@@ -71,7 +72,7 @@ void ExtractFileBase (char *path, char *dest)
         {
             I_Error(english_language ?
                     "Filename base of %s >8 chars" :
-                    "„«¨­  ¨¬¥­¨ ä ©«  %s >8 á¨¬¢®«®¢", path);
+                    "ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ä ©ï¿½ï¿½ %s >8 á¨¬ï¿½ï¿½ï¿½ï¿½ï¿½", path);
         }
 
         *dest++ = toupper((int)*src++);
@@ -125,13 +126,13 @@ void W_AddFile (char *filename)
     {
         printf (english_language ?
                 "\tcouldn't open %s\n" :
-                "\t­¥¢®§¬®¦­® ®âªàëâì %s\n", filename);
+                "\tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s\n", filename);
         return;
     }
 
     printf (english_language ?
             "\tadding %s\n" :
-            "\t¤®¡ ¢«¥­¨¥ %s\n", filename);
+            "\tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s\n", filename);
 
     startlump = numlumps;
 
@@ -155,7 +156,7 @@ void W_AddFile (char *filename)
             {
             I_Error (english_language ?
                     "Wad file %s doesn't have IWAD or PWAD id\n" :
-                    "Wad-ä ©« %s ­¥ á®¤¥à¦¨â ¨­ä®à¬ æ¨¨ IWAD ¨«¨ PWAD\n", filename);
+                    "Wad-ä ©ï¿½ %s ï¿½ï¿½ á®¤ï¿½à¦¨ï¿½ ï¿½ï¿½ï¿½à¬ æ¨¨ IWAD ï¿½ï¿½ï¿½ PWAD\n", filename);
             }
 
             modifiedgame = true;		
@@ -170,7 +171,7 @@ void W_AddFile (char *filename)
             // alloca would saturate the stack segment
             I_Error (english_language ?
                     "There isn't sufficient stack space available for %s (%d lumps)\n" :
-                    "Š®«¨ç¥áâ¢® ¡«®ª®¢ ¢ ä ©«¥ %s (%d ¡«®ª®¢) ¯à¥¢ëá¨«® «¨¬¨â\n",
+                    "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â¢® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ä ©ï¿½ï¿½ %s (%d ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½à¥¢ï¿½á¨«ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½\n",
                     filename, header.numlumps);
         }
 
@@ -187,7 +188,7 @@ void W_AddFile (char *filename)
     {
         I_Error (english_language ?
                 "Couldn't realloc lumpinfo" :
-                "¥¢®§¬®¦­® à á¯à¥¤¥«¨âì ¨­ä®à¬ æ¨î ® ¡«®ª å");
+                "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½à¥¤ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½à¬ ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
     }
 
     lump_p = &lumpinfo[startlump];
@@ -301,7 +302,7 @@ void W_Reload (void)
     {
         I_Error(english_language ?
                 "W_Reload: couldn't open %s" :
-                "W_Reload: ¥¢®§¬®¦­® ®âªàëâì %s", reloadname);
+                "W_Reload: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s", reloadname);
     }
 
     read (handle, &header, sizeof(header));
@@ -362,7 +363,7 @@ void W_InitMultipleFiles (char **filenames)
     {
         I_Error (english_language ?
                  "W_InitFiles: no files found" :
-                 "W_InitFiles: ” ©«ë ­¥ ­ ©¤¥­ë");
+                 "W_InitFiles: ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
     }
 
     //jff 1/23/98
@@ -384,7 +385,7 @@ void W_InitMultipleFiles (char **filenames)
     {
 	    I_Error (english_language ?
                  "Couldn't allocate lumpcache" :
-                 "¥¢®§¬®¦­® ®¡­ àã¦¨âì ªíè ¡«®ª®¢");
+                 "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ã¦¨ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
     }
 
     memset (lumpcache,0, size);
@@ -533,7 +534,7 @@ void W_ReadLump (int lump, void *dest)
         {
             I_Error (english_language ?
                     "W_ReadLump: couldn't open %s" :
-                    "W_ReadLump: ­¥¢®§¬®¦­® ®âªàëâì %s", reloadname);
+                    "W_ReadLump: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s", reloadname);
         }
     }
     else
@@ -548,7 +549,7 @@ void W_ReadLump (int lump, void *dest)
     {
 	    I_Error (english_language ?
                  "W_ReadLump: only read %i of %i on lump %i" :
-                 "W_ReadLump: ¯à®ç¨â ­® ¢á¥£® %i ¨§ %i ¢ ¡«®ª¥ %i",
+                 "W_ReadLump: ï¿½ï¿½ï¿½â ­ï¿½ ï¿½á¥£ï¿½ %i ï¿½ï¿½ %i ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ %i",
                  c,l->size,lump);
     }
 

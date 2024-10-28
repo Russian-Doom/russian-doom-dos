@@ -22,6 +22,7 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <alloca.h>
+#include <strings.h>
 
 #include "i_system.h"
 #include "z_zone.h"

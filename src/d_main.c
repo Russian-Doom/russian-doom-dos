@@ -25,6 +25,7 @@
 #include <dos.h>
 #include <direct.h>
 #include <io.h>
+#include <strings.h>
 
 #include "doomdef.h"
 #include "doomstat.h"

@@ -19,6 +19,7 @@
 //	Brightmap textures and flats lookup routine.
 //
 
+#include <strings.h>
 
 #include "doomstat.h"
 #include "r_local.h"
