@@ -22,11 +22,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
+#include <config.h>
+#include <git_info.h>
+
 #include "doomdef.h"
 #include "m_misc.h"
 #include "d_main.h"
 
-int main (int argc, char** argv) 
+static void printVersion(void)
+{
+    printf("Russian Doom DOS " PACKAGE_VERSION GIT_VERSION_SUFFIX "\n");
+    printf("Revision: %s (%s)\n", GIT_SHA, GIT_TIME);
+}
+
+int main(int argc, char** argv)
 { 
     // [JN] Use current time as seed for random generator.
     srand(time(0));
@@ -34,8 +44,13 @@ int main (int argc, char** argv)
     myargc = argc; 
     myargv = argv; 
 
-    D_DoomMain (); 
+    if(M_CheckParm("--version"))
+    {
+        printVersion();
+        return 0;
+    }
+
+    D_DoomMain();
 
     return 0;
 }
-
