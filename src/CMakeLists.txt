@@ -1,5 +1,3 @@
-add_subdirectory(wads)
-
 add_executable(rusdoom
     am_map.c        am_map.h
                     d_englsh.h

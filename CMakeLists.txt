@@ -26,6 +26,7 @@ endif()
 configure_file("cmake/config.h.in" "config.h")
 
 # Sources
+add_subdirectory(wads)
 add_subdirectory(audio)
 add_subdirectory(src)
 
