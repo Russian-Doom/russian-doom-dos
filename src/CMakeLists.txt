@@ -98,6 +98,7 @@ target_compile_options(rusdoom PRIVATE
     -wcd=303 # ignore "303: Parameter * has been defined, but not referenced" warning
     -j # treat char as signed
     -ei # use 4 bytes for enum
+    -zastd=c99 # use C99 standard (Cmake fails to add this with target properties)
 )
 
 if(NOT RD_GIT_NO_HASH)

@@ -128,6 +128,84 @@ char *M_StrCaseStr(char *haystack, char *needle)
     return NULL;
 }
 
+//
+// String replace function.
+// Returns newly alocated string.
+//
+char* M_StringReplace(const char* haystack, const char* needle, const char* replacement)
+{
+    // Iterate through occurrences of 'needle' and calculate the size of
+    // the new string.
+    size_t result_len = strlen(haystack) + 1;
+    size_t needle_len = strlen(needle);
+    const char* p = haystack;
+
+    for(;;)
+    {
+        p = strstr(p, needle);
+        if(p == NULL)
+        {
+            break;
+        }
+
+        p += needle_len;
+        result_len += strlen(replacement) - needle_len;
+    }
+
+    // Construct new string.
+    char* result = malloc(result_len);
+    if(result == NULL)
+    {
+        I_Error(english_language ?
+                "M_StringReplace: Failed to allocate new string" :
+                "M_StringReplace: ╨╜╨╡ ╤Г╨┤╨░╨╗╨╛╤Б╤М ╨╛╨▒╨╜╨░╤А╤Г╨╢╨╕╤В╤М ╨╜╨╛╨▓╤Г╤О ╤Б╤В╤А╨╛╨║╤Г");
+        return NULL;
+    }
+
+    char* dst = result;
+    size_t dst_len = result_len;
+    p = haystack;
+
+    while(*p != '\0')
+    {
+        if(!strncmp(p, needle, needle_len))
+        {
+            M_StringCopy(dst, replacement, dst_len);
+            p += needle_len;
+            dst += strlen(replacement);
+            dst_len -= strlen(replacement);
+        }
+        else
+        {
+            *dst = *p;
+            ++dst; --dst_len;
+            ++p;
+        }
+    }
+
+    *dst = '\0';
+
+    return result;
+}
+
+// Safe string copy function that works like OpenBSD's strlcpy().
+// Returns true if the string was not truncated.
+
+boolean M_StringCopy(char* dest, const char* src, size_t dest_size)
+{
+    if(dest_size >= 1)
+    {
+        dest[dest_size - 1] = '\0';
+        strncpy(dest, src, dest_size - 1);
+    }
+    else
+    {
+        return false;
+    }
+
+    size_t len = strlen(dest);
+    return src[len] == '\0';
+}
 
 //
 // M_Random
@@ -251,13 +329,13 @@ int M_ReadFile (char const *name, byte **buffer)
     {
 	    I_Error (english_language ?
                  "Couldn't read file %s" :
-                 "Невозможно прочитать файл %s", name);
+                 "я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ файя┐╜ %s", name);
     }
     if (fstat (handle,&fileinfo) == -1)
     {
 	    I_Error (english_language ?
                  "Couldn't read file %s" :
-                 "Невозможно прочитать файл %s", name);
+                 "я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ файя┐╜ %s", name);
     }
 
     length = fileinfo.st_size;
@@ -269,7 +347,7 @@ int M_ReadFile (char const *name, byte **buffer)
     {
 	    I_Error (english_language ?
                  "Couldn't read file %s" :
-                 "Невозможно прочитать файл %s", name);
+                 "я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜ файя┐╜ %s", name);
     }
 
     *buffer = buf;
@@ -594,7 +672,7 @@ void M_LoadDefaults (void)
         defaultfile = myargv[i+1];
         printf (english_language ?
                 "   default file: %s\n" :
-                "   конфигурационный файл: %s\n", defaultfile);
+                "   я┐╜я┐╜я┐╜фигя┐╜я┐╜циоя┐╜я┐╜я┐╜ файя┐╜: %s\n", defaultfile);
     }
     else
     {

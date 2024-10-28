@@ -35,7 +35,8 @@ int M_CheckParm (char* check);
 int M_CheckParmWithArgs (char *check, int num_args);
 
 char *M_StrCaseStr(char *haystack, char *needle);
-
+char* M_StringReplace(const char* haystack, const char* needle, const char* replacement);
+boolean M_StringCopy(char* dest, const char* src, size_t dest_size);
 
 boolean
 M_WriteFile
