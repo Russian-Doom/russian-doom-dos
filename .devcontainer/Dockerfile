@@ -2,10 +2,10 @@
 # Based on https://github.com/volkertb/debian-open-watcom
 # With additions from chocolate-doom
 
-FROM debian:12.6-slim
+FROM debian:12.7-slim
 
-ARG OW2_RELEASE_VERSION=2024-07-05-Build
-ARG OW2_INSTALLER_SHA256=5a35fa0c23e2a3659fbcf9efdfad17e49f01d6230e7e14141678ccdef8299a62
+ARG OW2_RELEASE_VERSION=2024-10-03-Build
+ARG OW2_INSTALLER_SHA256=5344e497f365284efe1d314ca81d1c120bac5ed72727110d89f0541c8bf43406
 ARG OW2_INSTALLER_NAME=open-watcom-2_0-c-linux-x64
 ARG OW2_DESTINATION_DIR=/opt/watcom
 

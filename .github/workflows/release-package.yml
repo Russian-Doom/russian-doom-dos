@@ -17,11 +17,11 @@ jobs:
       matrix:
         config:
           -
-            display_name: "WATCOM 2.0 (2024-07-05)"
+            display_name: "WATCOM 2.0 (2024-10-03)"
             runner: "ubuntu-22.04"
             shell: "bash"
             watcom_version: "2.0"
-            watcom_tag: "2024-07-05-Build"
+            watcom_tag: "2024-10-03-Build"
 
     permissions:
       contents: write
