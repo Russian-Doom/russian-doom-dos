@@ -19,9 +19,9 @@ add_subdirectory(src)
 # CPack
 set(CPACK_PACKAGE_NAME "russian-doom-dos")
 set(CPACK_SYSTEM_NAME "i386")
-set(CPACK_PACKAGE_VERSION ${PROJECT_VERSION})
 set(CPACK_PACKAGE_CHECKSUM SHA256)
 set(CPACK_GENERATOR ZIP)
+set(CPACK_PROJECT_CONFIG_FILE "CPackProjectConfig.cmake")
 
 # Archive Generator
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY OFF)
