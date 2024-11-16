@@ -29,12 +29,3 @@ function(add_copy_target target_name)
         OUT_FILES "${destination_files}"
     )
 endfunction()
-
-# configure_empty_git_info(<Template> <Output>)
-function(configure_empty_git_info Template Output)
-    set(Hash "<unknown>")
-    set(Timestamp "<unknown>")
-    set(Version_suffix "")
-    set(Display_version_suffix "")
-    configure_file("${Template}" "${Output}" @ONLY)
-endfunction()

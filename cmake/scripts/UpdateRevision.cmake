@@ -149,7 +149,8 @@ function(main)
     set(Git_executable "${CMAKE_ARGV3}")
 
     get_filename_component(ScriptDir "${CMAKE_SCRIPT_MODE_FILE}" DIRECTORY)
-    get_filename_component(ProjectDir "${ScriptDir}" DIRECTORY)
+    get_filename_component(ModulesDir "${ScriptDir}" DIRECTORY)
+    get_filename_component(ProjectDir "${ModulesDir}" DIRECTORY)
     get_project_version("${ProjectDir}/CMakeLists.txt")
 
     query_repo_info("${PROJECT_VERSION}" "${ProjectDir}")
@@ -181,7 +182,7 @@ function(main)
             return()
         endif()
 
-        configure_file("${ScriptDir}/git_info.h.in" "${OutputFile}" @ONLY)
+        configure_file("${ModulesDir}/git_info.h.in" "${OutputFile}" @ONLY)
 
         message(STATUS "Configuring ${OutputFile} - updated to commit ${Hash_suffix}")
     else()
